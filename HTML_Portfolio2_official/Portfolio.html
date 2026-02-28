@@ -12,11 +12,11 @@
         <nav class="nav_list">
             <div class="nav_div">
                 <img src="images_flag/code-solid.svg" width="20px" height="20px" class="nav_div_link_1">
-                <button class="nav_div_link"><a href="#info" class="nav_div_link">Information</a></button>
-                <button class="nav_div_link"><a href="#experience" class="nav_div_link">Experience</a></button>
-                <button class="nav_div_link"><a href="#skills" class="nav_div_link">Skills</a></button>
-                <button class="nav_div_link"><a href="#lang" class="nav_div_link">Language</a></button>
-                <button class="nav_div_link"><a href="#contact" class="nav_div_link">Contacts</a></button>
+                <button onclick="document.getElementById('info').scrollIntoView({behavior: 'smooth'});" class="nav_div_link"><a href="#info" class="nav_div_link">Information</a></button>
+                <button onclick="document.getElementById('experience').scrollIntoView({behavior: 'smooth'});" class="nav_div_link" class="nav_div_link"><a href="#experience" class="nav_div_link">Experience</a></button>
+                <button onclick="document.getElementById('skills').scrollIntoView({behavior: 'smooth'});" class="nav_div_link"><a href="#skills" class="nav_div_link">Skills</a></button>
+                <button onclick="document.getElementById('lang').scrollIntoView({behavior: 'smooth'});" class="nav_div_link"><a href="#lang" class="nav_div_link">Language</a></button>
+                <button onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'});" class="nav_div_link"><a href="#contact" class="nav_div_link">Contacts</a></button>
 
                 <a href="#eng" class="nav_div_link_3"><button class="button_1"><img src="images_flag/britain_flags.png" width="20px" height="20px"></button></a>
                 <a href="#est" class="nav_div_link"><button class="button_1"><img src="images_flag/estonian_flags.png" width="20px" height="20px"></button></a>                    
@@ -29,12 +29,12 @@
     <section class="section_2">
         <div class="Information_About">
             <div class="NameLastAndFirst">
-                <div id="#info" class="image_foto">
+                <div id="info" class="image_foto">
                     <img src="images_flag/Darja Potak.png" width="250px" height="420px">
                 </div>
                 <h1 style="color: rgb(9, 151, 9);">Information:</h1>
-                <h2 key="#info">I'm Darja Potak</h2> 
-                <h2 key="#info">I'm IT-Junior Specialist and Full-Stack Developer</h2>
+                <h2>I'm Darja Potak</h2> 
+                <h2>I'm IT-Junior Specialist and Full-Stack Developer</h2>
             </div>
             <div class="Education">
                 <h2 style="color: rgb(9, 151, 9);">Education:</h2>
@@ -42,7 +42,7 @@
                 <h3 class="h3_1">Junior IT Systems - Level 4</h3>
                 <h3 class="h3_1">IT-Techician - Level 4</h3>
             </div>
-            <div class="" id="#skills">
+            <div class="" id="skills">
                 <p>Network Computer and Equment</p>
                 <p>Programmering Python</p>
                 <p>For website layout: HTML and CSS</p>
@@ -94,7 +94,7 @@
         </div>
     </section>
     <br>
-    <section class="section_4">
+    <section class="section_4" id="experience">
         <h2 class="Experience_class" style="color: rgb(9, 151, 9);">Expierence: </h2>
         <div class="Experience_job_1">
             <h3 style="color: rgb(9, 151, 9); margin-left: 10px;">Tallinna Tondiraba Huvikool - Internship</h3>
@@ -104,30 +104,41 @@
                 <li></li>
                 <li></li>
             </ul>
+
             <p class="p_exp1" style="color: rgb(9, 151, 9);"> Installing new network equipment:</p>
             <ul class="list1">
                 <li></li>
                 <li></li>
                 <li></li>
             </ul>
-            <p class="p_exp1" style="color: rgb(9, 151, 9);">Operating systems Linux:</p>
-            <ul class="list1">
+
+            <div class="sec-3">
+              <p class="p_exp1" style="color: rgb(9, 151, 9);">Operating systems Linux:</p>
+                <ul class="list1">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+            </div>
+
+            <div class="sec-4">
+              <p class="p_exp1" style="color: rgb(9, 151, 9);">Working with Windows</p>
+                <ul class="list1">
+                   <li></li>
+                   <li></li>
+                   <li></li>
+                </ul>
+            </div>
+
+            <div class="sec-5">
+              <p class="p_exp1" style="color: rgb(9, 151, 9);">IT support:</p>
+              <ul class="list1">
                 <li></li>
                 <li></li>
                 <li></li>
-            </ul>
-            <p class="p_exp1" style="color: rgb(9, 151, 9);">Working with Windows</p>
-            <ul class="list1">
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-            <p class="p_exp1" style="color: rgb(9, 151, 9);">IT support:</p>
-            <ul class="list1">
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+              </ul>
+            </div>
+
         </div>
         <div class="Experience_job_2"></div>
         <div class="Experience_job_3"></div>
@@ -135,7 +146,7 @@
     <br>
     <section class="section_6">
         <h2 class="Contacts_class" style="color: rgb(9, 151, 9);">Contacts: </h2>
-        <div class="Contacts_job_1" id="#contact">
+        <div class="Contacts_job_1" id="contact">
             <a class="btn_2_link" href="www.linkedin.com/in/darja-potak-11884b350"><button class="btn_1_link" style="background-color: darkblue; color: white; border-radius: 10px;">Linkedin</button></a>
             <a class="btn_2_link" href="https://www.instagram.com/d_potak_draw/"><button class="btn_1_link" style="background-color: orangered; color: white; border-radius: 10px;">Instgram</button></a>
             <a class="btn_2_link" href="https://github.com/dpotak"><button class="btn_1_link" style="background-color: black; color: white; border-radius: 10px;">GitHub</button></a>
