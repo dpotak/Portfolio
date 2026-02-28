@@ -1,120 +1,263 @@
+/* ===== BASE ===== */
 body.body1 {
-background-color: black;
-margin: 0;
-font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h1,h2,h3,h4,p {color:white;margin:4px 0;}
+h1, h2, h3, h4, p {
+    color: white;
+    margin: 4px 0;
+}
 
+h1 { font-size: 35px; }
+h2 { font-size: 28px; }
+h3 { font-size: 22px; }
+h4 { font-size: 18px; }
+
+/* ===== NAVBAR ===== */
 .section_1 {
-height:100px;
-background:#01011c;
-display:flex;
-align-items:center;
+    min-height: 80px;
+    background-color: #01011c;
+    display: flex;
+    align-items: center;
+}
+
+.nav_list {
+    width: 100%;
 }
 
 .nav_div {
-display:flex;
-align-items:center;
-flex-wrap:wrap;
-gap:10px;
-padding:0 30px;
-width:100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 30px;
 }
 
 .nav_div_link {
-font-size:15px;
-color:rgb(9,151,9);
-background:black;
-border-radius:10px;
-padding:6px 12px;
-border:none;
-cursor:pointer;
+    font-size: 15px;
+    color: rgb(9, 151, 9);
+    background-color: black;
+    border-radius: 10px;
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
 }
 
-.nav_div_link:hover {background:#040445;}
+.nav_div_link:hover {
+    background-color: #040445;
+}
 
-.nav_div_link_3 {margin-left:auto;}
+.nav_div_link_1 {
+    margin-right: 10px;
+}
+
+.nav_div_link_3 {
+    margin-left: auto;
+    display: flex;
+    gap: 6px;
+}
 
 .button_1 {
-background:#040445;
-border-radius:8px;
-border:none;
-padding:4px 6px;
-cursor:pointer;
+    background-color: #040445;
+    border-radius: 8px;
+    border: none;
+    padding: 4px 6px;
+    cursor: pointer;
 }
 
-/* GRID */
+/* ===== MAIN LAYOUT ===== */
+.section_2,
+.section_3,
+.section_4,
+.section_6 {
+    margin: 40px 50px;
+}
+
+/* ===== INFO BLOCK ===== */
 .Information_About {
-display:grid;
-grid-template-columns:1fr 260px;
-gap:40px;
-align-items:start;
+    display: grid;
+    grid-template-columns: 1fr 260px;
+    gap: 40px;
+    align-items: start;
 }
 
 .image_foto img {
-border-radius:12px;
-border:2px solid #040445;
+    border-radius: 12px;
+    border: 2px solid #040445;
 }
 
-/* PROJECTS */
+/* ===== EDUCATION / COURSES ===== */
+.Education,
+.courses {
+    margin-top: 10px;
+}
+
+/* ===== EMAIL BUTTON ===== */
+.btn_gmail_copy {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.email {
+    border-radius: 10px;
+    background-color: #040445;
+    color: white;
+    padding: 8px 14px;
+    border: none;
+    cursor: pointer;
+}
+
+.email:hover {
+    opacity: 0.85;
+}
+
+/* ===== CERTIFICATES GRID ===== */
+.kvadrat_certificate_info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cert_text1,
+.cert_text2,
+.cert_text3,
+.cert_text4,
+.cert_text5,
+.cert_text6,
+.cert_text7 {
+    width: 300px;
+    min-height: 190px;
+    border: 2px #040445 solid;
+    background: #040445;
+    padding: 12px;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+/* ===== EXPERIENCE ===== */
+.Experience_job_1,
+.Experience_job_2 {
+    max-width: 750px;
+    width: 100%;
+    border: 2px #040445 solid;
+    background: #040445;
+    margin-top: 15px;
+    padding: 16px;
+    border-radius: 12px;
+}
+
+/* ===== PROJECTS ===== */
 .pet-projects {
-display:flex;
-flex-wrap:wrap;
-gap:20px;
-margin-top:10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 10px;
 }
 
 .kvadrat_1_progetcs,
 .kvadrat_2_progetcs,
 .kvadrat_3_progetcs {
-width:300px;
-min-height:160px;
-border:2px #040445 solid;
-background:#040445;
-padding:12px;
-border-radius:12px;
-box-sizing:border-box;
-display:flex;
-flex-direction:column;
-justify-content:space-between;
+    width: 300px;
+    min-height: 160px;
+    border: 2px #040445 solid;
+    background: #040445;
+    padding: 12px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-/* EXPERIENCE */
+/* ===== CONTACTS ===== */
+.Contacts_job_1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.btn_1_link,
+.kvadrat_pro_btn {
+    margin: 2px;
+    padding: 10px 16px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+/* ===== HOVER EFFECT ===== */
+.cert_text1,
+.cert_text2,
+.cert_text3,
+.cert_text4,
+.cert_text5,
+.cert_text6,
+.cert_text7,
+.kvadrat_1_progetcs,
+.kvadrat_2_progetcs,
+.kvadrat_3_progetcs,
 .Experience_job_1,
 .Experience_job_2 {
-max-width:750px;
-border:2px #040445 solid;
-background:#040445;
-margin-top:15px;
-padding:16px;
-border-radius:12px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-/* BUTTONS */
-.btn_1_link,.kvadrat_pro_btn {
-margin:2px;
-padding:10px 16px;
-border-radius:10px;
-border:none;
-cursor:pointer;
-color:white;
+.cert_text1:hover,
+.cert_text2:hover,
+.cert_text3:hover,
+.cert_text4:hover,
+.cert_text5:hover,
+.cert_text6:hover,
+.cert_text7:hover,
+.kvadrat_1_progetcs:hover,
+.kvadrat_2_progetcs:hover,
+.kvadrat_3_progetcs:hover,
+.Experience_job_1:hover,
+.Experience_job_2:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 12px rgba(9, 151, 9, 0.6);
 }
 
-/* EMAIL */
-.btn_gmail_copy {
-display:flex;
-align-items:center;
-gap:10px;
-margin-top:10px;
+/* ===== SMOOTH SCROLL ===== */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px;
 }
 
-.email {
-border-radius:10px;
-background:#040445;
-color:white;
-padding:8px 14px;
-border:none;
-cursor:pointer;
-}
+/* ===== RESPONSIVE ===== */
+@media (max-width: 900px) {
 
+    .Information_About {
+        grid-template-columns: 1fr;
+    }
+
+    .image_foto {
+        order: -1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section_2,
+    .section_3,
+    .section_4,
+    .section_6 {
+        margin: 30px 20px;
+    }
+
+    .nav_div {
+        justify-content: center;
+    }
+
+    .nav_div_link_3 {
+        margin-left: 0;
+    }
+
+    .Experience_job_1,
+    .Experience_job_2 {
+        max-width: 100%;
+    }
+}
