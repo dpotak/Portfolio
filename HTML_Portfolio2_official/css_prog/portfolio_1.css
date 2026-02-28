@@ -1,175 +1,205 @@
-.body1 {
+/* ===== BASE ===== */
+body.body1 {
     background-color: black;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, p {
+    color: white;
+    margin: 4px 0;
+}
+
+h1 { font-size: 35px; }
+h2 { font-size: 28px; }
+h3 { font-size: 22px; }
+h4 { font-size: 18px; }
+
+/* ===== NAVBAR ===== */
+.section_1 {
+    height: 100px;
+    background-color: #01011c;
+    display: flex;
+    align-items: center;
 }
 
 .nav_list {
-    margin-left: 35px;
+    width: 100%;
+}
+
+.nav_div {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0 30px;
 }
 
 .nav_div_link {
-    margin-left: 10px;
     font-size: 15px;
-    text-align: center; 
     color: rgb(9, 151, 9);
+    background-color: black;
+    border-radius: 10px;
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
 }
 
-.nav_div_link_2 {
-    margin-left: 8px;
+.nav_div_link a {
+    color: rgb(9, 151, 9);
+    text-decoration: none;
+}
+
+.nav_div_link:hover {
+    background-color: #040445;
+}
+
+.nav_div_link_1 {
+    margin-right: 10px;
 }
 
 .nav_div_link_3 {
-    margin-left: 730px;
+    margin-left: auto;
 }
 
 .button_1 {
     background-color: #040445;
+    border-radius: 8px;
+    border: none;
+    padding: 4px 6px;
+    cursor: pointer;
 }
 
-.section_1 {
-    height: 100px;
-    background-color: #01011c;
+/* ===== MAIN LAYOUT ===== */
+.section_2,
+.section_3,
+.section_4,
+.section_6 {
+    margin: 40px 50px;
 }
 
-.nav_div_link {
-    border-radius: 10px;
-    background-color: black;
-}
-
-i {
-    color: rgb(9, 151, 9);
-}
-
-.nav_div_link_1 {
-    margin-right: 8px;
-}
-
-h1, h3, h2, h4, p {
-    color: white;
-}
-
-h1 {
-    font-size: 35px;
-}
-
-h3 {
-    font-size: 25px;
-}
-
-h2 {
-    font-size: 30px;
-}
-
+/* ===== INFO BLOCK ===== */
 .Information_About {
-    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 1fr 260px;
+    gap: 40px;
+    align-items: start;
 }
 
-.section_3 {
-    margin-left: 50px;
+.image_foto img {
+    border-radius: 12px;
+    border: 2px solid #040445;
+}
+
+/* ===== EDUCATION / COURSES ===== */
+.Education,
+.courses {
+    margin-top: 10px;
+}
+
+/* ===== EMAIL BUTTON ===== */
+.btn_gmail_copy {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
 }
 
 .email {
     border-radius: 10px;
     background-color: #040445;
     color: white;
+    padding: 8px 14px;
+    border: none;
+    cursor: pointer;
 }
 
-.image_foto {
-    float: right;
+.email:hover {
+    opacity: 0.85;
 }
 
-.image_foto {
-    margin-right: 40px;
-}
-
-.btn_gmail_copy, .h4_gmail {
-    display: flex;
-    margin-left: 8px;
-}
-
-.h4_2, .h3_1 {
-    padding: 1px;
-    margin: 1px;
-}
-
-.h2_1 , .h3_2 {
-    padding: 1px;
-    margin: 1px;
-}
-
-.courses {
-    padding: 1px;
-    margin: 1px;
-}
-
-.pp_1 , .pp_2, .pp_3 {
-    padding: 1px;
-    margin: 1px;
-}
-
-.cert_text1, .cert_text2, .cert_text3, .cert_text4 {
-    width: 300px;
-    height: 190px;
-    border: 2px #040445 solid;
-    background: #040445;
-    margin-left: 15px;
-}
-
+/* ===== CERTIFICATES ===== */
 .kvadrat_certificate_info {
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
-.cert_text5 , .cert_text6 , .cert_text7 {
+.cert_text1,
+.cert_text2,
+.cert_text3,
+.cert_text4,
+.cert_text5,
+.cert_text6,
+.cert_text7 {
     width: 300px;
-    height: 190px;
+    min-height: 190px;
     border: 2px #040445 solid;
     background: #040445;
-    margin-top: 15px;
-    margin-left: 15px;
+    padding: 12px;
+    border-radius: 12px;
+    box-sizing: border-box;
 }
 
-.kvadrat_certificate_info_2 {
-    display: flex;
-}
-
-.h4_cert {
-    padding: 1px;
-    margin: 1px;
-}
-
-.h4_cert76 , .h4_cert67 {
-    padding: 1px;
-    margin: 1px;
-}
-
+/* ===== EXPERIENCE ===== */
 .Experience_job_1 {
-    width: 730px;
-    height: 600px;
+    max-width: 750px;
     border: 2px #040445 solid;
     background: #040445;
     margin-top: 15px;
-    margin-left: 60px;
+    padding: 16px;
+    border-radius: 12px;
 }
 
-.Experience_class {
-    margin-left: 50px;
+.list1 {
+    padding-left: 20px;
 }
 
-.Contacts_class {
-    margin-left: 50px;
+/* ===== CONTACTS ===== */
+.Contacts_job_1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
 }
-
 
 .btn_1_link {
     margin: 2px;
+    padding: 10px 16px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
 }
 
-.Contacts_job_1 {
-    display: flex;
-    margin-left: 60px;
-}
-
+/* ===== SMOOTH SCROLL ===== */
 html {
     scroll-behavior: smooth;
-    /* Опционально: отступ, чтобы шапка не перекрывала заголовок */
-    scroll-padding-top: 70px; 
+    scroll-padding-top: 70px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 900px) {
+    .Information_About {
+        grid-template-columns: 1fr;
+    }
+
+    .image_foto {
+        order: -1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section_2,
+    .section_3,
+    .section_4,
+    .section_6 {
+        margin: 30px 20px;
+    }
+
+    .nav_div {
+        justify-content: center;
+    }
+
+    .nav_div_link_3 {
+        margin-left: 0;
+    }
 }
