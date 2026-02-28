@@ -1,8 +1,18 @@
-.sec-1 , .sec-2 , .sec-3 , .sec-4 , .sec-5 {
-    padding-top: 22px;
+/* HOVER */
+.cert_text1,.cert_text2,.cert_text3,.cert_text4,.cert_text5,
+.kvadrat_1_progetcs,.kvadrat_2_progetcs,.kvadrat_3_progetcs {
+transition:transform .25s ease,box-shadow .25s ease;
 }
 
-.p_exp1_1 , .p_exp1_2 , .p_exp1_3 , .p_exp1_4 , .p_exp1_5 , .p_exp1_6 {
-    padding-top: 122px;
-    overflow: hidden;
+.cert_text1:hover,.cert_text2:hover,.cert_text3:hover,.cert_text4:hover,.cert_text5:hover,
+.kvadrat_1_progetcs:hover,.kvadrat_2_progetcs:hover,.kvadrat_3_progetcs:hover {
+transform:translateY(-6px);
+box-shadow:0 0 12px rgba(9,151,9,.6);
+}
+
+/* RESPONSIVE */
+@media (max-width:900px){
+.Information_About{grid-template-columns:1fr;}
+.nav_div{justify-content:center;}
+.nav_div_link_3{margin-left:0;}
 }
