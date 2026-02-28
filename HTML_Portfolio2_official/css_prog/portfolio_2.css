@@ -1,7 +1,8 @@
 .sec-1 , .sec-2 , .sec-3 , .sec-4 , .sec-5 {
-    
+    padding-top: 22px;
 }
 
 .p_exp1_1 , .p_exp1_2 , .p_exp1_3 , .p_exp1_4 , .p_exp1_5 , .p_exp1_6 {
-    margin-top: 12px;
+    padding-top: 122px;
+    overflow: hidden;
 }
