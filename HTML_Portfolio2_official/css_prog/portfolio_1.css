@@ -215,3 +215,38 @@ html {
     display: flex;
 }
 
+/* ===== HOVER EFFECT: CERTIFICATES ===== */
+.cert_text1,
+.cert_text2,
+.cert_text3,
+.cert_text4,
+.cert_text5,
+.cert_text6,
+.cert_text7,
+.kvadrat_1_progetcs,
+.kvadrat_2_progetcs,
+.kvadrat_3_progetcs {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.cert_text1:hover,
+.cert_text2:hover,
+.cert_text3:hover,
+.cert_text4:hover,
+.cert_text5:hover,
+.cert_text6:hover,
+.cert_text7:hover,
+.kvadrat_1_progetcs:hover,
+.kvadrat_2_progetcs:hover,
+.kvadrat_3_progetcs:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 12px rgba(9, 151, 9, 0.6);
+}
+
+/* ===== PET PROJECTS GRID ===== */
+.pet-projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 10px;
+}
