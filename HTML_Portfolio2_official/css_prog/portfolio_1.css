@@ -142,8 +142,18 @@ h4 { font-size: 18px; }
 }
 
 /* ===== EXPERIENCE ===== */
-.Experience_job_1 , .Experience_job_2 {
+.Experience_job_1 {
     max-width: 750px;
+    border: 2px #040445 solid;
+    background: #040445;
+    margin-top: 15px;
+    padding: 16px;
+    border-radius: 12px;
+}
+
+.Experience_job_2 {
+    width: 750px;
+    height: 250px;
     border: 2px #040445 solid;
     background: #040445;
     margin-top: 15px;
