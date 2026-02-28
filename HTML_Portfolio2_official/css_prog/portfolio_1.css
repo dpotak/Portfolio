@@ -203,3 +203,15 @@ html {
         margin-left: 0;
     }
 }
+
+.kvadrat_1_progetcs , .kvadrat_2_progetcs , .kvadrat_3_progetcs {
+    width: 300px;
+    min-height: 190px;
+    border: 2px #040445 solid;
+    background: #040445;
+    padding: 12px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    display: flex;
+}
+
