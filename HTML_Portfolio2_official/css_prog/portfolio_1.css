@@ -162,7 +162,7 @@ h4 { font-size: 18px; }
     gap: 12px;
 }
 
-.btn_1_link {
+.btn_1_link , .kvadrat_pro_btn {
     margin: 2px;
     padding: 10px 16px;
     border-radius: 10px;
