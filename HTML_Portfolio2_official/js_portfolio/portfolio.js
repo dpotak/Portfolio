@@ -21,8 +21,11 @@ skills_title:"Skills:",
 projects_title:"Projects:",
 edu_title:"Education:",
 exp_title:"Experience:",
-contacts_title:"Contacts:"
+contacts_title:"Contacts:",
+IT_Junior: "Junior IT Systems - Level 4",
+IT_tech: "IT-Techician - Level 4"
 },
+
 ru:{
 nav_info:"Информация",
 nav_exp:"Опыт",
