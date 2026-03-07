@@ -16,3 +16,7 @@ box-shadow:0 0 12px rgba(9,151,9,.6);
 .nav_div{justify-content:center;}
 .nav_div_link_3{margin-left:0;}
 }
+
+.lang_btn_britain , .h3_britan {
+    display: flex;
+}
