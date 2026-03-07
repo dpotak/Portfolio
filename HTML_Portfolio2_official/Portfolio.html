@@ -12,11 +12,11 @@
         <nav class="nav_list">
             <div class="nav_div">
                 <img src="images_flag/code-solid.svg" width="20px" height="20px" class="nav_div_link_1">
-                <button onclick="document.getElementById('info').scrollIntoView({behavior: 'smooth'});" class="nav_div_link"><a href="#info" class="nav_div_link">Information</a></button>
-                <button onclick="document.getElementById('experience').scrollIntoView({behavior: 'smooth'});" class="nav_div_link" class="nav_div_link"><a href="#experience" class="nav_div_link">Experience</a></button>
-                <button onclick="document.getElementById('skills').scrollIntoView({behavior: 'smooth'});" class="nav_div_link"><a href="#skills" class="nav_div_link">Skills</a></button>
+                <button data-i18n="nav_info" onclick="document.getElementById('info').scrollIntoView({behavior: 'smooth'});" class="nav_div_link"><a href="#info" class="nav_div_link">Information</a></button>
+                <button data-i18n="nav_exp" onclick="document.getElementById('experience').scrollIntoView({behavior: 'smooth'});" class="nav_div_link" class="nav_div_link"><a href="#experience" class="nav_div_link">Experience</a></button>
+                <button data-i18n="nav_skills" onclick="document.getElementById('skills').scrollIntoView({behavior: 'smooth'});" class="nav_div_link"><a href="#skills" class="nav_div_link">Skills</a></button>
                 <button onclick="document.getElementById('lang').scrollIntoView({behavior: 'smooth'});" class="nav_div_link"><a href="#lang" class="nav_div_link">Language</a></button>
-                <button onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'});" class="nav_div_link"><a href="#contact" class="nav_div_link">Contacts</a></button>
+                <button data-i18n="nav_contacts" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'});" class="nav_div_link"><a href="#contact" class="nav_div_link">Contacts</a></button>
 
                 <button class="nav_div_link"><a href="" class="nav_div_link">CV</a></button>
 
@@ -33,11 +33,11 @@
                 <div id="info" class="image_foto">
                     <img src="images_flag/Darja Potak.png" width="250px" height="420px">
                 </div>
-                <h1 style="color: rgb(9, 151, 9);">Information:</h1>
-                <h2>I'm Darja Potak</h2> 
-                <h2>I'm IT-Junior Specialist and Junior Full-Stack Developer</h2>
+                <h1 style="color: rgb(9, 151, 9);" data-i18n="info_title">Information:</h1>
+                <h2 data-i18n="info_name">I'm Darja Potak</h2> 
+                <h2 data-i18n="info_role">I'm IT-Junior Specialist and Junior Full-Stack Developer</h2>
             </div>
-            <div class="Education">
+            <div class="Education" data-i18n="edu_title">
                 <h2 style="color: rgb(9, 151, 9);">Education:</h2>
                 <h4 class="h4_2">Tallinna Tööstushariduskeskus</h4>
                 <h3 class="h3_1">Junior IT Systems - Level 4</h3>
