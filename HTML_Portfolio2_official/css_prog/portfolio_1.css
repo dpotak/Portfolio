@@ -83,11 +83,15 @@ h4 { font-size: 18px; }
     align-items: start;
 }
 
-.image_foto img {
-    border-radius: 12px;
-    border: 2px solid #040445;
+.image_foto {
     display: flex;
-    gap: 10px;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.image_foto div {
+    display: flex;
+    flex-direction: column;
 }
 
 /* ===== EDUCATION / COURSES ===== */
