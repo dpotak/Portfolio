@@ -166,7 +166,8 @@ h4 { font-size: 18px; }
 
 .kvadrat_1_progetcs,
 .kvadrat_2_progetcs,
-.kvadrat_3_progetcs {
+.kvadrat_3_progetcs,
+.kvadrat_4_progetcs {
     width: 300px;
     min-height: 160px;
     border: 2px #040445 solid;
