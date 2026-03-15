@@ -166,7 +166,6 @@ h4 { font-size: 18px; }
 
 .kvadrat_ones {
     display: flex;
-    margin-left: 10px;
 }
 
 .kvadrat_1_progetcs,
@@ -177,6 +176,7 @@ h4 { font-size: 18px; }
     min-height: 160px;
     border: 2px #040445 solid;
     background: #040445;
+    margin-left: 15px;
     padding: 12px;
     border-radius: 12px;
     box-sizing: border-box;
