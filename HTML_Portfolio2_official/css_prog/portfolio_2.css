@@ -17,6 +17,6 @@ box-shadow:0 0 12px rgba(9,151,9,.6);
 .nav_div_link_3{margin-left:0;}
 }
 
-.lang_btn_britain , .h3_britan {
+.lang_eng , .lang_est , .lang_rus {
     display: flex;
 }
