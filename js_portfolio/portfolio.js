@@ -23,7 +23,9 @@ edu_title:"Education:",
 exp_title:"Experience:",
 contacts_title:"Contacts:",
 IT_Junior: "Junior IT Systems - Level 4",
-IT_tech: "IT-Techician - Level 4"
+IT_tech: "IT-Techician - Level 4",
+p_text_info_1: "Junior IT Specialist with diverse experience.",
+p_text_info_2: "Completed a seven-month internship at the Tallinn Tondiraba Hobby School."
 },
 
 ru:{
@@ -55,7 +57,9 @@ skills_title:"Oskused:",
 projects_title:"Projektid:",
 edu_title:"Haridus:",
 exp_title:"Töökogemus:",
-contacts_title:"Kontakt:"
+contacts_title:"Kontakt:",
+p_text_info_1: "Mitmekesise kogemusega noorem IT-spetsialist.",
+p_text_info_2: "Läbis seitsmekuulise praktika Tallinna Tondiraba huvikoolis."
 }
 };
 
