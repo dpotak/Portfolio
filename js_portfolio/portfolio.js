@@ -25,7 +25,8 @@ contacts_title:"Contacts:",
 IT_Junior: "Junior IT Systems - Level 4",
 IT_tech: "IT-Techician - Level 4",
 p_text_info_1: "Junior IT Specialist with diverse experience.",
-p_text_info_2: "Completed a seven-month internship at the Tallinn Tondiraba Hobby School."
+p_text_info_2: "Completed a seven-month internship at the Tallinn Tondiraba Hobby School.",
+operator_cleaning: "Operator cleaning - level 3",
 },
 
 ru:{
@@ -42,7 +43,8 @@ edu_title:"Образование:",
 exp_title:"Опыт:",
 contacts_title:"Контакты:",
 p_text_info_1: "Младший ИТ-Специалист с разнобразным опытом.",
-p_text_info_2: "Проходила семи месячную стажировку в Таллиннской Школе Тондираба по интересам."
+p_text_info_2: "Проходила семи месячную стажировку в Таллиннской Школе Тондираба по интересам.",
+operator_cleaning: "Оператор уборки - уровень 3",
 
 },
 et:{
@@ -59,7 +61,9 @@ edu_title:"Haridus:",
 exp_title:"Töökogemus:",
 contacts_title:"Kontakt:",
 p_text_info_1: "Mitmekesise kogemusega noorem IT-spetsialist.",
-p_text_info_2: "Läbis seitsmekuulise praktika Tallinna Tondiraba huvikoolis."
+p_text_info_2: "Läbis seitsmekuulise praktika Tallinna Tondiraba huvikoolis.",
+operator_cleaning: "",
+
 }
 };
 
