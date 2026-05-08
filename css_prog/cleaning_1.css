@@ -3,3 +3,27 @@
     margin:0;
     font-family:Arial, Helvetica, sans-serif;
 }
+
+.nad_div_btn {
+    max-width:1200px;
+    margin:auto;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    gap:10px;
+    padding:12px 20px;
+}
+
+.nav_div_link {
+    font-size:15px;
+    color:rgb(9,151,9);
+    background:black;
+    border-radius:10px;
+    padding:6px 12px;
+    border:none;
+    cursor:pointer;
+}
+
+.nav_div_link:hover {
+    background:#040445;
+}
