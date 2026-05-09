@@ -21,8 +21,8 @@ h4{font-size:17px;}
 
 .section_2,
 .section_3,
-.section_4,
-.section_6{
+.section_4 
+.section_6 {
     max-width:1200px;
     margin:40px auto;
     padding:0 20px;
@@ -207,13 +207,15 @@ h4{font-size:17px;}
 
 /* ===== EXPERIENCE ===== */
 
-.Experience_job_1,
-.Experience_job_2{
+/* .Experience_job_2 */
+.Experience_job_1 {
     background:#040445;
     border:2px solid #040445;
     border-radius:12px;
-    padding:20px;
+    width: 1000px;
+    height: 850px;
     margin-top:20px;
+    margin-left: 40px;
 }
 
 
