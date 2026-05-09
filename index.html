@@ -3,6 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-clifford: #da373d;
+      }
+    </style>
     <link rel="stylesheet" href="css_prog/portfolio_1.css">
     <link rel="icon" type="image/x-icon" href="images_flag/code-solid.svg">
     <title>IT Portfolio: Darja Potak</title>
@@ -388,10 +394,10 @@
             </div>
             <br>
             <div class="btn_gmail_copy">
-                <button class="email"  onclick="copyEmail()">
+                <button class="email" onclick="copyEmail()">
                    Copy email <i class="fa-regular fa-copy"></i> <!-- Button for copy gmail-->
                 </button>
-                <div class="h4_gmail">
+                <div class="h4_gmail" id="emailText">
                     <h4>darjapotak@gmail.com</h4>
                 </div>
             </div>
