@@ -32,6 +32,13 @@ p_text_info_5: "",
 p_text_info_6: "",
 p_text_info_7: "",
 operator_cleaning: "Operator cleaning - level 3",
+
+exp_1: "",
+exp_2: "",
+exp_3: "",
+exp_4: "",
+exp_5: "",
+exp_6: "",
 },
 
 ru:{
@@ -56,6 +63,13 @@ p_text_info_6: "",
 p_text_info_7: "",
 operator_cleaning: "Оператор уборки - уровень 3",
 
+exp_1: "",
+exp_2: "",
+exp_3: "",
+exp_4: "",
+exp_5: "",
+exp_6: "",
+
 },
 et:{
 nav_info:"Info",
@@ -78,6 +92,13 @@ p_text_info_5: "",
 p_text_info_6: "",
 p_text_info_7: "",
 operator_cleaning: "",
+
+exp_1: "",
+exp_2: "",
+exp_3: "",
+exp_4: "",
+exp_5: "",
+exp_6: "",
 
 }
 };
