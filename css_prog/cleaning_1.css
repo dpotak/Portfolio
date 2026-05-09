@@ -30,3 +30,19 @@
 }
 
 /* Certification */
+.section_3 {
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:20px;
+    margin-top:20px;
+}
+
+.cert_text1 , 
+.cert_text2 , 
+.cert_text3 {
+    background:#040445;
+    border:2px solid #040445;
+    border-radius:12px;
+    padding:15px;
+    min-height:200px;
+}
