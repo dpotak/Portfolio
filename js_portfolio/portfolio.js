@@ -130,7 +130,7 @@ p_text_info_8: "Pakkusin töötajatele ja õpilastele IT-tuge, hooldasin printer
 p_text_info_9: "Mul on ka Pythoni põhikogemus. programmeerimine.",
 p_text_info_10: "Lõpetasin Tallinna Tööstushariduskeskuse 2024. aastal.",
 
-operator_cleaning: "",
+operator_cleaning: "Puhastusteenindaja - tase 3",
 
 exp_1: "Uute võrguseadmete paigaldamine:",
 exp_1_2: "Etherneti kaablite paigaldamine",
