@@ -36,6 +36,9 @@ p_text_info_8: "I provided IT support to staff and students, maintained printers
 p_text_info_9: "I also have basic experience in Python programming.",
 p_text_info_10: "I completed from Tallinn Industrial Education Center in 2024.",
 
+Month_1: "August 2020 - Juny 2024",
+Month_2: "January 2026 - May 2026",
+
 operator_cleaning: "Operator cleaning - level 3",
 
 exp_1: "Installing new network equipment:",
@@ -90,6 +93,9 @@ p_text_info_10: "Я закончил Таллиннский центр пром�
 
 operator_cleaning: "Оператор уборки - уровень 3",
 
+Month_1: "Август 2020 г. - июнь 2024 г.",
+Month_2: "Январь 2026 г. - май 2026 г.",
+
 exp_1: "Установка нового сетевого оборудования:",
 exp_1_2: "Прокладка кабелей Ethernet",
 exp_1_3: "Установка новых коммутаторов (модель: TP-LINK, Zyxel)",
@@ -129,6 +135,9 @@ p_text_info_7: "ja aitasin tööjaamu seadistada.",
 p_text_info_8: "Pakkusin töötajatele ja õpilastele IT-tuge, hooldasin printereid ja projektoreid ning toetasin tehnilisi seadmeid ürituste ajal.",
 p_text_info_9: "Mul on ka Pythoni põhikogemus. programmeerimine.",
 p_text_info_10: "Lõpetasin Tallinna Tööstushariduskeskuse 2024. aastal.",
+
+Month_1: "August 2020 - juuni 2024",
+Month_2: "Jaanuar 2026 - Mai 2026",
 
 operator_cleaning: "Puhastusteenindaja - tase 3",
 
