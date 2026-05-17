@@ -141,7 +141,8 @@ h4{font-size:17px;}
 .kvadrat_1_progetcs,
 .kvadrat_2_progetcs,
 .kvadrat_3_progetcs,
-.kvadrat_4_progetcs{
+.kvadrat_4_progetcs ,
+.kvadrat_5_progetcs {
     background:#040445;
     border:2px solid #040445;
     border-radius:12px;
@@ -153,7 +154,8 @@ h4{font-size:17px;}
 }
 
 .kvadrat_2_progetcs , 
-.kvadrat_3_progetcs {
+.kvadrat_3_progetcs ,
+.kvadrat_5_progetcs {
     margin-top: 15px;
 }
 
