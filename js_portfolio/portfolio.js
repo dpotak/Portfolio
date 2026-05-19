@@ -65,7 +65,32 @@ exp_3: "",
 exp_4: "",
 exp_5: "",
 exp_6: "",
+
+manga_chan_1: "• End-to-end development of a multilingual web platform (RU / EN / EE)",
+manga_chan_1_2: "• UI/UX design and layout using HTML5 and modern CSS",
+manga_chan_1_3: "• Frontend development with JavaScript and React:",
+manga_chan_1_4: "– building multilingual pages",
+manga_chan_1_5: "– optimizing performance",
+manga_chan_1_6: "– implementing additional interactive features",
+
+manga_chan_2: "• Backend development with Python (Flask):",
+manga_chan_2_2: "– REST API design",
+manga_chan_2_3: "",
+
+manga_chan_7: "",
+manga_chan_7: "",
+manga_chan_7: "",
+
+manga_chan_9: "",
+manga_chan_9: "",
+manga_chan_9: "",
+manga_chan_9: "",
+
+
+
 },
+
+
 
 ru:{
 nav_info:"Информация",
@@ -115,6 +140,10 @@ exp_5: "",
 exp_6: "",
 
 },
+
+
+
+
 et:{
 nav_info:"Info",
 nav_exp:"Kogemus",
