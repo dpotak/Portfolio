@@ -78,8 +78,8 @@ manga_chan_2_2: "– REST API design",
 manga_chan_2_3: "– data interaction and routing logic",
 
 manga_chan_7: "• Version control with Git:",
-manga_chan_7_2: "",
-manga_chan_7_3: "",
+manga_chan_7_2: "– active branching and commits",
+manga_chan_7_3: "– restoring and maintaining previous versions",
 
 manga_chan_9: "",
 manga_chan_9_2: "",
