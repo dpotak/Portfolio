@@ -75,16 +75,16 @@ manga_chan_1_6: "– implementing additional interactive features",
 
 manga_chan_2: "• Backend development with Python (Flask):",
 manga_chan_2_2: "– REST API design",
-manga_chan_2_3: "",
+manga_chan_2_3: "– data interaction and routing logic",
 
-manga_chan_7: "",
-manga_chan_7: "",
-manga_chan_7: "",
+manga_chan_7: "• Version control with Git:",
+manga_chan_7_2: "",
+manga_chan_7_3: "",
 
 manga_chan_9: "",
-manga_chan_9: "",
-manga_chan_9: "",
-manga_chan_9: "",
+manga_chan_9_2: "",
+manga_chan_9_3: "",
+manga_chan_9_4: "",
 
 
 
