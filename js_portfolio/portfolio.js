@@ -22,8 +22,9 @@ projects_title:"Projects:",
 edu_title:"Education:",
 exp_title:"Experience:",
 contacts_title:"Contacts:",
-IT_Junior: "Junior IT Systems - Level 4",
-IT_tech: "IT-Techician - Level 4",
+
+name_Specialist_1: "Junior IT Systems - Level 4",
+name_Specialist_2: "IT-Techician - Level 4",
 
 p_text_info_1: "Junior IT Specialist with diverse experience.",
 p_text_info_2: "I'm completed a seven-month internship at the Tallinn Tondiraba Hobby School.",
@@ -80,6 +81,9 @@ edu_title:"Образование:",
 exp_title:"Опыт:",
 contacts_title:"Контакты:",
 
+name_Specialist_1: "Младший специалист по ИТ-системам - Уровень 4",
+name_Specialist_2: "ИТ-техник - Уровень 4",
+
 p_text_info_1: "Младший IT-специалист с разнообразным опытом».",
 p_text_info_2: "Я завершил семимесячную стажировку в Таллиннской школе хобби Тондираба».",
 p_text_info_3: "Я устанавливал и настраивал сетевое оборудование (кабели, маршрутизаторы UniFi, коммутаторы TP-Link и Zyxel)».",
@@ -124,6 +128,9 @@ projects_title:"Projektid:",
 edu_title:"Haridus:",
 exp_title:"Töökogemus:",
 contacts_title:"Kontakt:",
+
+name_Specialist_1: "IT-süsteemide juunior - 4. tase",
+name_Specialist_2: "IT-tehnik - 4. tase",
 
 p_text_info_1: "Noorem IT-spetsialist mitmekülgse kogemusega.",
 p_text_info_2: "Läbin seitsmekuulise praktika Tallinna Tondiraba Huvikoolis.",
