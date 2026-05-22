@@ -92,9 +92,9 @@ manga_chan_9_3: "– Docker-based environment",
 manga_chan_9_4: "– Ansible automation",
 manga_chan_9_5: "– automated setup of Apache2 and MongoDB using Ansible + Docker",
 
-manga_chan_10_1: "",
-manga_chan_10_2: "",
-manga_chan_10_3: "",
+manga_chan_10_1: "• Working MagicalVoxel:",
+manga_chan_10_2: "- Creating a logo shape for a website",
+manga_chan_10_3: "- Converting a MagicaVoxel file to .obj",
 
 
 },
