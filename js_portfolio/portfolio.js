@@ -97,9 +97,10 @@ manga_chan_10_2: "- Creating a logo shape for a website",
 manga_chan_10_3: "- Converting a MagicaVoxel file to .obj",
 
 
-wordpress_1: "",
-wordpress_1_1: "",
-wordpress_1_2: "",
+wordpress_1: "Project Goals",
+wordpress_1_1: "Automate web server setup",
+wordpress_1_2: "Infrastructure as code (IaC)",
+wordpress_1_3: "Deploy a web application without manual intervention",
 
 wordpress_2_1: "",
 wordpress_2_2: "",
@@ -112,15 +113,6 @@ wordpress_3_3: "",
 wordpress_4: "",
 wordpress_4: "",
 wordpress_4: "",
-
-wordpress_5: "",
-wordpress_5: "",
-wordpress_5: "",
-wordpress_5: "",
-
-wordpress_6: "",
-wordpress_6: "",
-wordpress_6: "",
 
 
 },
