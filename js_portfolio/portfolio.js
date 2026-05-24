@@ -171,6 +171,11 @@ html_css_javaScript: "- HTML , CSS и JavaScript",
 
 text_portfolio_progects: "Это мое портфолио. Этот сайт написан на HTML , CSS и JavaScript.",
 
+link_pages: "Страницы ссылок",
+github_pages: "Репозиторий GitHub",
+link_pages_coming: "Страницы ссылок (скоро будут доступны)",
+link_video: "Видео ссылки",
+
 progects_desc: "Описание проекта:",
 Technologies_desc: "Технологии:",
 
@@ -294,6 +299,11 @@ git_github: "- Git ja GitHub",
 html_css_javaScript: "- HTML , CSS ja JavaScript",
 
 text_portfolio_progects: "See on minu portfoolio. See on veebilehe kirjutamise HTML, CSS ja JavaScript.",
+
+link_pages: "Lingilehed",
+github_pages: "GitHubi repositoorium",
+link_pages_coming: "Lingilehed (varsti tulekul)",
+link_video: "Lingivideo",
 
 exp_1: "Uute võrguseadmete paigaldamine:",
 exp_1_2: "Etherneti kaablite paigaldamine",
