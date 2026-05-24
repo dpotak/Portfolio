@@ -45,6 +45,9 @@ Technologies_desc: "Technologies:",
 
 operator_cleaning: "Operator cleaning - level 3",
 
+html_css: "",
+git_github: "",
+
 exp_1: "Installing new network equipment:",
 exp_1_2: "Laying Ethernet cables",
 exp_1_3: "Installing new switches (model: TP-LINK, Zyxel)",
@@ -153,6 +156,9 @@ p_text_info_9: "У меня также есть базовый опыт прог
 p_text_info_10: "Я закончил Таллиннский центр промышленного образования в 2024 году.",
 
 operator_cleaning: "Оператор уборки - уровень 3",
+
+html_css: "",
+git_github: "",
 
 progects_desc: "Описание проекта:",
 Technologies_desc: "Технологии:",
@@ -271,6 +277,9 @@ progects_desc: "Projekti kirjeldus:",
 Technologies_desc: "Tehnoloogiad:",
 
 operator_cleaning: "Puhastusteenindaja - tase 3",
+
+html_css: "",
+git_github: "",
 
 exp_1: "Uute võrguseadmete paigaldamine:",
 exp_1_2: "Etherneti kaablite paigaldamine",
