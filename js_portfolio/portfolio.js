@@ -49,6 +49,7 @@ html_css: "- HTML and CSS",
 git_github: "- Git and GitHub",
 html_css_javaScript: "- HTML , CSS and JavaScript",
 
+text_portfolio_progects: "It's my portfolio. It's website write HTML , CSS and JavaScript.",
 
 exp_1: "Installing new network equipment:",
 exp_1_2: "Laying Ethernet cables",
@@ -163,6 +164,7 @@ html_css: "- HTML и CSS",
 git_github: "- Git и GitHub",
 html_css_javaScript: "- HTML , CSS и JavaScript",
 
+text_portfolio_progects: "Это мое портфолио. Этот сайт написан на HTML , CSS и JavaScript.",
 
 progects_desc: "Описание проекта:",
 Technologies_desc: "Технологии:",
@@ -285,6 +287,8 @@ operator_cleaning: "Puhastusteenindaja - tase 3",
 html_css: "- HTML ja CSS",
 git_github: "- Git ja GitHub",
 html_css_javaScript: "- HTML , CSS ja JavaScript",
+
+text_portfolio_progects: "See on minu portfoolio. See on veebilehe kirjutamise HTML, CSS ja JavaScript.",
 
 exp_1: "Uute võrguseadmete paigaldamine:",
 exp_1_2: "Etherneti kaablite paigaldamine",
