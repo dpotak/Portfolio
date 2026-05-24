@@ -45,8 +45,8 @@ Technologies_desc: "Technologies:",
 
 operator_cleaning: "Operator cleaning - level 3",
 
-html_css: "",
-git_github: "",
+html_css: "- HTML and CSS",
+git_github: "- Git and GitHub",
 
 exp_1: "Installing new network equipment:",
 exp_1_2: "Laying Ethernet cables",
