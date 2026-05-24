@@ -40,6 +40,8 @@ p_text_info_10: "I completed from Tallinn Industrial Education Center in 2024.",
 Month_1: "August 2020 - Juny 2024",
 Month_2: "January 2026 - May 2026",
 
+progects_desc: "Project Description:",
+
 operator_cleaning: "Operator cleaning - level 3",
 
 exp_1: "Installing new network equipment:",
@@ -151,6 +153,8 @@ p_text_info_10: "Я закончил Таллиннский центр пром�
 
 operator_cleaning: "Оператор уборки - уровень 3",
 
+progects_desc: "Описание проекта:",
+
 Month_1: "Август 2020 г. - июнь 2024 г.",
 Month_2: "Январь 2026 г. - май 2026 г.",
 
@@ -164,7 +168,6 @@ exp_1_7: "Повторное подключение IP-телефонов",
 
 exp_2: "Операционные системы Linux",
 exp_2_1: "Работа с операционными системами Linux, Ubuntu Server (настройка прав пользователей для одной учебной группы)",
-
 
 exp_3: "Работа с Windows:",
 exp_3_1: "- Много работал с операционными системами Windows 10/11",
@@ -261,6 +264,8 @@ p_text_info_10: "Lõpetasin Tallinna Tööstushariduskeskuse 2024. aastal.",
 
 Month_1: "August 2020 - juuni 2024",
 Month_2: "Jaanuar 2026 - Mai 2026",
+
+progects_desc: "Projekti kirjeldus:",
 
 operator_cleaning: "Puhastusteenindaja - tase 3",
 
