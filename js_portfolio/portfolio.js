@@ -157,8 +157,8 @@ p_text_info_10: "Я закончил Таллиннский центр пром�
 
 operator_cleaning: "Оператор уборки - уровень 3",
 
-html_css: "",
-git_github: "",
+html_css: "- HTML и CSS",
+git_github: "- Git и GitHub",
 
 progects_desc: "Описание проекта:",
 Technologies_desc: "Технологии:",
@@ -278,8 +278,8 @@ Technologies_desc: "Tehnoloogiad:",
 
 operator_cleaning: "Puhastusteenindaja - tase 3",
 
-html_css: "",
-git_github: "",
+html_css: "- HTML ja CSS",
+git_github: "- Git ja GitHub",
 
 exp_1: "Uute võrguseadmete paigaldamine:",
 exp_1_2: "Etherneti kaablite paigaldamine",
