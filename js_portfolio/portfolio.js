@@ -309,6 +309,8 @@ github_pages: "GitHubi repositoorium",
 link_pages_coming: "Lingilehed (varsti tulekul)",
 link_video: "Lingivideo",
 
+skills_name: "Oskused:",
+
 exp_1: "Uute võrguseadmete paigaldamine:",
 exp_1_2: "Etherneti kaablite paigaldamine",
 exp_1_3: "Uute kommutaatorite paigaldamine (mudel: TP-LINK, Zyxel)",
