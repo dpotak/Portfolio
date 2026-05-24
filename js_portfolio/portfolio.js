@@ -51,6 +51,10 @@ html_css_javaScript: "- HTML , CSS and JavaScript",
 
 text_portfolio_progects: "It's my portfolio. It's website write HTML , CSS and JavaScript.",
 
+link_pages: "Link Pages",
+github_pages: "GitHub Repositor",
+link_pages_coming: "Link Pages (coming soon)",
+
 exp_1: "Installing new network equipment:",
 exp_1_2: "Laying Ethernet cables",
 exp_1_3: "Installing new switches (model: TP-LINK, Zyxel)",
