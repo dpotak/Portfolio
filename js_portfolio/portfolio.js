@@ -47,6 +47,8 @@ operator_cleaning: "Operator cleaning - level 3",
 
 html_css: "- HTML and CSS",
 git_github: "- Git and GitHub",
+html_css_javaScript: "- HTML , CSS and JavaScript",
+
 
 exp_1: "Installing new network equipment:",
 exp_1_2: "Laying Ethernet cables",
@@ -159,6 +161,8 @@ operator_cleaning: "Оператор уборки - уровень 3",
 
 html_css: "- HTML и CSS",
 git_github: "- Git и GitHub",
+html_css_javaScript: "- HTML , CSS и JavaScript",
+
 
 progects_desc: "Описание проекта:",
 Technologies_desc: "Технологии:",
@@ -280,6 +284,7 @@ operator_cleaning: "Puhastusteenindaja - tase 3",
 
 html_css: "- HTML ja CSS",
 git_github: "- Git ja GitHub",
+html_css_javaScript: "- HTML , CSS ja JavaScript",
 
 exp_1: "Uute võrguseadmete paigaldamine:",
 exp_1_2: "Etherneti kaablite paigaldamine",
