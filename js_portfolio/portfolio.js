@@ -41,6 +41,7 @@ Month_1: "August 2020 - Juny 2024",
 Month_2: "January 2026 - May 2026",
 
 progects_desc: "Project Description:",
+Technologies_desc: "Technologies:",
 
 operator_cleaning: "Operator cleaning - level 3",
 
@@ -154,6 +155,7 @@ p_text_info_10: "Я закончил Таллиннский центр пром�
 operator_cleaning: "Оператор уборки - уровень 3",
 
 progects_desc: "Описание проекта:",
+Technologies_desc: "Технологии:",
 
 Month_1: "Август 2020 г. - июнь 2024 г.",
 Month_2: "Январь 2026 г. - май 2026 г.",
@@ -266,6 +268,7 @@ Month_1: "August 2020 - juuni 2024",
 Month_2: "Jaanuar 2026 - Mai 2026",
 
 progects_desc: "Projekti kirjeldus:",
+Technologies_desc: "Tehnoloogiad:",
 
 operator_cleaning: "Puhastusteenindaja - tase 3",
 
