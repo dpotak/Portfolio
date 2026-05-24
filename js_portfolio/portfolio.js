@@ -56,6 +56,8 @@ github_pages: "GitHub Repositor",
 link_pages_coming: "Link Pages (coming soon)",
 link_video: "Link Video",
 
+skills_name: "Skills:",
+
 exp_1: "Installing new network equipment:",
 exp_1_2: "Laying Ethernet cables",
 exp_1_3: "Installing new switches (model: TP-LINK, Zyxel)",
@@ -175,6 +177,8 @@ link_pages: "Страницы ссылок",
 github_pages: "Репозиторий GitHub",
 link_pages_coming: "Страницы ссылок (скоро будут доступны)",
 link_video: "Видео ссылки",
+
+skills_name: "Скиллы:",
 
 progects_desc: "Описание проекта:",
 Technologies_desc: "Технологии:",
