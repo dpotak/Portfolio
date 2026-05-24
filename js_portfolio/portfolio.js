@@ -70,7 +70,6 @@ exp_5: "Programming:",
 exp_5_1: "- Programmed practical work in Python",
 
 
-
 manga_chan_1: "• End-to-end development of a multilingual web platform (RU / EN / EE)",
 manga_chan_1_2: "• UI/UX design and layout using HTML5 and modern CSS",
 manga_chan_1_3: "• Frontend development with JavaScript and React:",
@@ -155,19 +154,77 @@ operator_cleaning: "Оператор уборки - уровень 3",
 Month_1: "Август 2020 г. - июнь 2024 г.",
 Month_2: "Январь 2026 г. - май 2026 г.",
 
-exp_1: "Установка нового сетевого оборудования:",
+exp_1: "Установка нового сетевого оборудования",
 exp_1_2: "Прокладка кабелей Ethernet",
 exp_1_3: "Установка новых коммутаторов (модель: TP-LINK, Zyxel)",
 exp_1_4: "Установка новых Wi-Fi роутеров (модель: UniFi)",
-exp_1_5: "Подключение учебных классов к проводному интернету",
+exp_1_5: "Подключение аудиторий к проводному интернету",
 exp_1_6: "Установка новых компьютеров",
 exp_1_7: "Повторное подключение IP-телефонов",
 
-exp_2: "",
-exp_3: "",
-exp_4: "",
-exp_5: "",
-exp_6: "",
+exp_2: "Операционные системы Linux",
+exp_2_1: "Работа с операционными системами Linux, Ubuntu Server (настройка прав пользователей для одной учебной группы)",
+
+
+exp_3: "Работа с Windows:",
+exp_3_1: "- Много работал с операционными системами Windows 10/11",
+exp_3_2: "- Работал с Microsoft Office 365 (Microsoft Word, Microsoft Excel, Microsoft PowerPoint, Teams, OneDrive)",
+exp_3_3: "- Настройка панели рабочего стола и экрана для удобства работы школьного персонала и учащихся.",
+exp_3_4: "- Настройка сети (например, проверка выдачи IP-адресов компьютерам)",
+
+exp_4: "ИТ-поддержка:",
+exp_4_1: "- Опыт работы с периферийным оборудованием (принтеры, интерактивные доски, плоттеры (принтеры для плакатов), колонки, сканеры и проекторы)",
+exp_4_2: "- Опыт технической поддержки на мероприятиях/концертах (работа с диджейским микшером), проведение концертов/мероприятий",
+exp_4_3: "- Работа с регистрацией пользователей (например, добавление пользователей для удаленной печати или личная регистрация в школьных командах Teams)",
+exp_4_4: "- Техническое обслуживание принтеров, мониторов/компьютеров и проекторов (удаление пыли, замена картриджей в принтерах)",
+exp_4_5: "- ИТ-техническая поддержка школьного персонала и учащихся при работе с периферийными устройствами и компьютерами.",
+exp_5: "Программирование:",
+exp_5_1: "- Практическая работа по программированию на Python",
+
+manga_chan_1: "• Разработка многоязычной веб-платформы (RU / EN / EE)",
+manga_chan_1_2: "• Дизайн и верстка UI/UX с использованием HTML5 и современного CSS",
+manga_chan_1_3: "• Разработка фронтенда с использованием JavaScript и React:",
+manga_chan_1_4: "- создание многоязычных страниц",
+manga_chan_1_5: "- оптимизация производительности",
+manga_chan_1_6: "- реализация дополнительных интерактивных функций",
+
+manga_chan_2: "• Разработка бэкенда на Python (Flask):",
+manga_chan_2_2: "- проектирование REST API",
+manga_chan_2_3: "- взаимодействие с данными и логика маршрутизации",
+
+manga_chan_7: "• Контроль версий с помощью Git:",
+manga_chan_7_2: "- активное ветвление и коммиты",
+manga_chan_7_3: "– восстановление и поддержка предыдущих версий",
+
+manga_chan_9: "• Инфраструктура и развертывание:",
+manga_chan_9_2: "– Linux (Ubuntu, CentOS 7)",
+manga_chan_9_3: "– Среда на основе Docker",
+manga_chan_9_4: "– Автоматизация Ansible",
+manga_chan_9_5: "– автоматическая настройка Apache2 и MongoDB с использованием Ansible + Docker",
+
+manga_chan_10_1: "• Работа с MagicalVoxel:",
+manga_chan_10_2: "- Создание формы логотипа для веб-сайта",
+manga_chan_10_3: "- Преобразование файла MagicaVoxel в .obj",
+
+wordpress_1: "Цели проекта",
+wordpress_1_1: "Автоматизация настройки веб-сервера",
+wordpress_1_2: "Инфраструктура как код(IaC)",
+wordpress_1_3: "Развертывание веб-приложения без ручного вмешательства",
+
+wordpress_2_1: "Что реализовано",
+wordpress_2_2: "Установка и настройка компонентов стека LAMP:",
+wordpress_2_3: "- Apache2",
+
+wordpress_3_1: "- MariaDB (совместимая с MySQL)",
+wordpress_3_2: "- PHP и модули",
+wordpress_3_3: "- Автоматизация служб systemd (включение + запуск)",
+wordpress_3_4: "- Создание базы данных и пользователя WordPress",
+
+wordpress_4: "- Автоматическая загрузка и распаковка WordPress",
+wordpress_4_1: "- Настройка веб-каталога и прав доступа",
+wordpress_4_2: "- Создание виртуального хоста Apache",
+wordpress_4_3: "- Включение сайта, отключение default-site",
+wordpress_4_4: "- Обновление PHP до версии 8.3",
 
 },
 
@@ -211,15 +268,73 @@ exp_1: "Uute võrguseadmete paigaldamine:",
 exp_1_2: "Etherneti kaablite paigaldamine",
 exp_1_3: "Uute kommutaatorite paigaldamine (mudel: TP-LINK, Zyxel)",
 exp_1_4: "Uute WiFi-ruuterite paigaldamine (mudel: UniFi)",
-exp_1_5: "Klassiruumide ühendamine juhtmega internetiga",
+exp_1_5: "Klasside ühendamine juhtmega internetiga",
 exp_1_6: "Uute arvutite paigaldamine",
 exp_1_7: "IP-telefonide taasühendamine",
 
-exp_2: "",
-exp_3: "",
-exp_4: "",
-exp_5: "",
-exp_6: "",
+exp_2: "Operatsioonisüsteemid Linux:",
+exp_2_1: "- Töötasin operatsioonisüsteemidega Linux Ubuntu Server (kasutajaõiguste seadistamine ühele õpperühmale)",
+
+exp_3: "Töötasin Windowsiga:",
+exp_3_1: "- Töötasin paljude operatsioonisüsteemidega Windows 10/11",
+exp_3_2: "- Töötasin Microsoft Office 365-ga (Microsoft Word, Microsoft Excel, Microsoft PowerPoint, Teams, OneDrive)",
+exp_3_3: "- Töölauapaneeli ja ekraani seadistamine mugavuse tagamiseks töö kooli töötajatele ja õpilastele.",
+exp_3_4: "- Võrgu seadistamine (näiteks: arvutite IP-aadresside väljastamise kontrollimine)",
+
+exp_4: "IT-tugi:",
+exp_4_1: "- Kogemus välisseadmetega (printerid, interaktiivsed tahvlid, plotterid (plakatiprinterid), kõlarid, skannerid ja projektorid)",
+exp_4_2: "- Kogemus tehnilise toe pakkumisel üritustel/kontsertidel (DJ-mikseriga töötamine), kontsertide/ürituste korraldamine",
+exp_4_3: "- Kasutajate registreerimine (näiteks: kasutajate lisamine printimiseks kaugjuhtimise teel või kooli isiklike meeskondade registreerimine)",
+exp_4_4: "- Printerite, monitoride/arvutite ja projektorite hooldus (tolmu pühkimine, printerikassettide vahetamine)",
+exp_4_5: "- IT-tehniline tugi kooli töötajatele ja õpilastele välisseadmete ja arvutitega töötamisel.",
+
+exp_5: "Programmeerimine:",
+exp_5_1: "- Programmeeritud praktiline töö Pythonis",
+
+manga_chan_1: "• Mitmekeelse veebiplatvormi (RU / EN / EE) terviklik arendus",
+manga_chan_1_2: "• UI/UX disain ja paigutus HTML5 ja kaasaegse CSS-i abil",
+manga_chan_1_3: "• Front-end arendus JavaScripti ja Reactiga:",
+manga_chan_1_4: "– mitmekeelsete lehtede loomine",
+manga_chan_1_5: "– jõudluse optimeerimine",
+manga_chan_1_6: "– täiendavate interaktiivsete funktsioonide rakendamine",
+
+manga_chan_2: "• Back-end arendus Pythoniga (Flask):",
+manga_chan_2_2: "– REST API disain",
+manga_chan_2_3: "– andmete interaktsioon ja marsruutimise loogika",
+
+manga_chan_7: "• Versioonikontroll Gitiga:",
+manga_chan_7_2: "– aktiivne hargnemine ja commit'id",
+manga_chan_7_3: "– eelmiste versioonide taastamine ja hooldamine",
+
+manga_chan_9: "• Infrastruktuur ja juurutamine:",
+manga_chan_9_2: "– Linux (Ubuntu, CentOS 7)",
+manga_chan_9_3: "– Dockeril põhinev keskkond",
+manga_chan_9_4: "– Ansible'i automatiseerimine",
+manga_chan_9_5: "– Apache2 ja MongoDB automatiseeritud seadistamine Ansible + Dockeri abil",
+
+manga_chan_10_1: "• MagicalVoxeliga töötamine:",
+manga_chan_10_2: "- Veebisaidi logo kuju loomine",
+manga_chan_10_3: "- MagicaVoxeli faili teisendamine .obj-failiks",
+
+wordpress_1: "Projekti eesmärgid",
+wordpress_1_1: "Veebiserveri seadistamise automatiseerimine",
+wordpress_1_2: "Infrastruktuur koodina (IaC)",
+wordpress_1_3: "Veebirakenduse juurutamine ilma käsitsi sekkumiseta",
+
+wordpress_2_1: "Mis on rakendatud",
+wordpress_2_2: "LAMP-i pinu komponentide installimine ja seadistamine:",
+wordpress_2_3: "- Apache2",
+
+wordpress_3_1: "- MariaDB (MySQL-iga ühilduv)",
+wordpress_3_2: "- PHP ja moodulid",
+wordpress_3_3: "- Systemd teenuste automatiseerimine (lubamine + käivitamine)",
+wordpress_3_4: "- WordPressi andmebaasi ja kasutaja loomine",
+
+wordpress_4: "- WordPressi automaatne allalaadimine ja lahtipakkimine",
+wordpress_4_1: "- Veebikataloogi ja juurdepääsuõiguste seadistamine",
+wordpress_4_2: "- Apache virtuaalse hosti loomine",
+wordpress_4_3: "- Saidi lubamine, vaikesaidi keelamine",
+wordpress_4_4: "- PHP uuendamine versioonile 8.3",
 
 }
 };
