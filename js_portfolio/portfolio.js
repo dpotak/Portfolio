@@ -157,14 +157,6 @@ powershell_4: "",
 powershell_4: "",
 powershell_4: "",
 
-powershell_5: "",
-powershell_5: "",
-powershell_5: "",
-powershell_5: "",
-powershell_5: "",
-powershell_5: "",
-
-
 },
 
 
