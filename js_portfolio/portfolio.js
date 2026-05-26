@@ -132,6 +132,22 @@ wordpress_4_2: "- Create an Apache virtual host",
 wordpress_4_3: "- Enabling a site, disabling default-site",
 wordpress_4_4: "- Upgrade PHP to version 8.3",
 
+powershell_1: "- Automation",
+powershell_1_2: "- Networking basics",
+powershell_1_3: "- Domain configuration",
+
+powershell_2: "",
+powershell_2: "",
+powershell_2: "",
+powershell_2: "",
+
+powershell_3: "",
+powershell_3: "",
+powershell_3: "",
+
+powershell_4: "",
+powershell_5: "",
+
 
 },
 
