@@ -137,15 +137,31 @@ powershell_1_2: "- Networking basics",
 powershell_1_3: "- Domain configuration",
 
 powershell_2: "",
-powershell_2: "",
-powershell_2: "",
-powershell_2: "",
+powershell_2_1: "",
+powershell_2_3: "",
+powershell_2_3: "",
+powershell_2_3: "",
+powershell_2_3: "",
 
+powershell_3_1: "",
+powershell_3_2: "",
 powershell_3: "",
 powershell_3: "",
 powershell_3: "",
+powershell_3: "",
+
 
 powershell_4: "",
+powershell_4: "",
+powershell_4: "",
+powershell_4: "",
+powershell_4: "",
+
+powershell_5: "",
+powershell_5: "",
+powershell_5: "",
+powershell_5: "",
+powershell_5: "",
 powershell_5: "",
 
 
