@@ -138,6 +138,7 @@ powershell_1_3: "- Domain configuration",
 
 powershell_2: "Developed a multi-step PowerShell script to automate the setup of a server infrastructure on Windows Server. The script performs a full deployment of the base corporate environment and web service.",
 powershell_2_1: "- Automated server renaming and rebooting",
+
 powershell_2_3: "Configured the network stack:",
 powershell_2_3: "- Static IP",
 powershell_2_3: "- DHCP pool + options",
@@ -147,15 +148,8 @@ powershell_3_1: "Automated the installation and configuration of server roles:",
 powershell_3_2: "- Active Directory Domain Services",
 powershell_3: "- Deployed a PHP + MySQL stack",
 powershell_3: "- Automated database and user creation in MySQL",
-powershell_3: "",
-powershell_3: "",
-
-
-powershell_4: "",
-powershell_4: "",
-powershell_4: "",
-powershell_4: "",
-powershell_4: "",
+powershell_3: "- Uploaded and configured WordPress on IIS",
+powershell_3: "- Organized the script's execution in stages (staged launch)",
 
 },
 
