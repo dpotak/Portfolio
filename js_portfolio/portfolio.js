@@ -23,6 +23,8 @@ edu_title:"Education:",
 exp_title:"Experience:",
 contacts_title:"Contacts:",
 
+Language: "Language",
+
 name_Specialist_1: "Junior IT Systems - Level 4",
 name_Specialist_2: "IT-Techician - Level 4",
 
@@ -171,6 +173,8 @@ edu_title:"Образование:",
 exp_title:"Опыт:",
 contacts_title:"Контакты:",
 
+Language: "Языки",
+
 name_Specialist_1: "Младший специалист по ИТ-системам - Уровень 4",
 name_Specialist_2: "ИТ-техник - Уровень 4",
 
@@ -318,6 +322,9 @@ projects_title:"Projektid:",
 edu_title:"Haridus:",
 exp_title:"Töökogemus:",
 contacts_title:"Kontakt:",
+
+Language: "Keel",
+
 
 name_Specialist_1: "IT-süsteemide juunior - 4. tase",
 name_Specialist_2: "IT-tehnik - 4. tase",
