@@ -151,7 +151,7 @@ powershell_3_3: "- Deployed a PHP + MySQL stack",
 powershell_3_4: "- Automated database and user creation in MySQL",
 powershell_3_5: "- Uploaded and configured WordPress on IIS",
 powershell_3_6: "- Organized the script's execution in stages (staged launch)",
-powershell_3_7: "",
+powershell_3_7: "- Added user creation in Active Directory",
 },
 
 
