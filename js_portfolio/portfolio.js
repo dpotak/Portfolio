@@ -324,7 +324,9 @@ exp_title:"Töökogemus:",
 contacts_title:"Kontakt:",
 
 Language: "Keel",
-
+lang_rus: "",
+lang_eng: "",
+lang_est: "",
 
 name_Specialist_1: "IT-süsteemide juunior - 4. tase",
 name_Specialist_2: "IT-tehnik - 4. tase",
