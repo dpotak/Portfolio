@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css_prog/portfolio_1.css">
+    <link rel="stylesheet" href="css_prog/portfolio_2.css">
+    <link rel="stylesheet" href="css_prog/porfolio_3.css">
     <link rel="icon" type="image/x-icon" href="images_flag/code-solid.svg">
     <title>IT Portfolio: Darja Potak</title>
 </head> 
@@ -20,7 +22,17 @@
                 <button onclick="document.getElementById('Sysdmin').scrollIntoView({behavior: 'smooth'});" class="nav_div_link"><a href="#Sysdmin" class="nav_div_link">System-Administration-Pet-Progects</a></button>
                 <button data-i18n="nav_contacts" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'});" class="nav_div_link"><a href="#contact" class="nav_div_link">Contacts</a></button>
 
-                <button class="nav_div_link"><a href="CV.html" class="nav_div_link">CV Resume</a></button>
+             <div class="dropdown">
+                <button class="dropdown_btn" onclick="toggleDropdown()">CV Resume</button>
+
+                  <div id="dropdown" class="dropdown_menu">
+                    <button class="a_nav_link"><a href="CV.html">CV Resume Estonian</a></button>
+                    <button class="a_nav_link"><a href="#">CV Resume English</a></button>
+                    <button class="a_nav_link"><a href="#">CV Resume Russia</a></button>
+                  </div>
+                </div>
+
+
                 <!-- <button class="nav_div_link"><a href="cleaning.html" class="nav_div_link">Cleaning Operator Portfolio</a></button> -->
 
                 <button class="button_1" onclick="setLang('en')"><img src="images_flag/britain_flags.png" width="20"></button>

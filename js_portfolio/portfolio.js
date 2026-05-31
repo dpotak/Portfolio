@@ -501,3 +501,7 @@ document.querySelectorAll("[data-i18n]").forEach(el=>{
 el.innerText=translations[lang][el.dataset.i18n];
 });
 }
+
+function toggleDropdown() {
+    document.getElementById("dropdown").classList.toggle("show");
+}
