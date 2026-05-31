@@ -23,6 +23,9 @@ edu_title:"Education:",
 exp_title:"Experience:",
 contacts_title:"Contacts:",
 
+Full_stack_projects: "Projects Full-Stack Development:",
+Administration_net__projects: "Projects Systems Administration Stack:",
+
 Language: "Language",
 
 name_Specialist_1: "Junior IT Systems - Level 4",
@@ -189,6 +192,10 @@ python_tase: "Python - средний",
 java_tase: "Java - Элементарный",
 c_sharp_tase: "C# - Элементарный",
 
+Full_stack_projects: "Проекты Full-Stack Разработки:",
+Administration_net__projects: "Проекты Системного Администрирование:",
+
+
 
 name_Specialist_1: "Младший специалист по ИТ-системам - Уровень 4",
 name_Specialist_2: "ИТ-техник - Уровень 4",
@@ -347,6 +354,9 @@ lang_est: "C2 - emakeel",
 python_tase: "Python - Keskmine",
 java_tase: "Java - Algmine",
 c_sharp_tase: "C# - Algmine",
+
+Full_stack_projects: "Projektid Full-Stack arenduse:",
+Administration_net__projects: "Süsteemide administreerimise pinu projektid:",
 
 name_Specialist_1: "IT-süsteemide juunior - 4. tase",
 name_Specialist_2: "IT-tehnik - 4. tase",
