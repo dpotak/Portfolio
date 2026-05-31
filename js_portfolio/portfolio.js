@@ -276,6 +276,26 @@ wordpress_4_2: "- Создание виртуального хоста Apache",
 wordpress_4_3: "- Включение сайта, отключение default-site",
 wordpress_4_4: "- Обновление PHP до версии 8.3",
 
+powershell_1: "- Автоматизация",
+powershell_1_2: "- Основы сетевых технологий",
+powershell_1_3: "- Настройка доменной инфраструктуры",
+
+powershell_2: "Разработал многоэтапный PowerShell-скрипт для автоматизации настройки серверной инфраструктуры на Windows Server. Скрипт выполняет полное развертывание базовой корпоративной среды и веб-сервиса.",
+powershell_2_1: "- Автоматизировано переименование сервера и его перезагрузка",
+
+powershell_2_7: "- DNS-сервер + зоны прямого и обратного просмотра",
+powershell_2_3: "Настроен сетевой стек:",
+powershell_2_4: "- Статический IP-адрес",
+powershell_2_5: "- DHCP-пул и параметры DHCP",
+powershell_2_6: "- NAT и маршрутизация",
+
+powershell_3_1: "Автоматизирована установка и настройка серверных ролей:",
+powershell_3_2: "- Active Directory Domain Services",
+powershell_3_3: "- Развернут стек PHP + MySQL",
+powershell_3_4: "- Автоматизировано создание базы данных и пользователя MySQL",
+powershell_3_5: "- Выполнена загрузка и настройка WordPress на IIS",
+powershell_3_6: "- Организовано поэтапное выполнение скрипта",
+powershell_3_7: "- Добавлено создание пользователей в Active Directory",
 },
 
 
@@ -402,6 +422,26 @@ wordpress_4_2: "- Apache virtuaalse hosti loomine",
 wordpress_4_3: "- Saidi lubamine, vaikesaidi keelamine",
 wordpress_4_4: "- PHP uuendamine versioonile 8.3",
 
+powershell_1: "- Automatiseerimine",
+powershell_1_2: "- Võrgutehnoloogiate alused",
+powershell_1_3: "- Domeenitaristu seadistamine",
+
+powershell_2: "Arendasin mitmeetapilise PowerShelli skripti Windows Serveri serveritaristu automatiseeritud seadistamiseks. Skript teostab ettevõtte põhikeskkonna ja veebiteenuse täieliku juurutamise.",
+powershell_2_1: "- Serveri ümbernimetamise ja taaskäivitamise automatiseerimine",
+
+powershell_2_7: "- DNS-server ning edasi- ja pöördotsingu tsoonid",
+powershell_2_3: "Seadistatud võrguinfrastruktuur:",
+powershell_2_4: "- Staatiline IP-aadress",
+powershell_2_5: "- DHCP vahemik ja DHCP seaded",
+powershell_2_6: "- NAT ja marsruutimine",
+
+powershell_3_1: "Automatiseeritud serverirollide paigaldamine ja seadistamine:",
+powershell_3_2: "- Active Directory Domain Services",
+powershell_3_3: "- PHP + MySQL keskkonna juurutamine",
+powershell_3_4: "- MySQL andmebaasi ja kasutaja loomise automatiseerimine",
+powershell_3_5: "- WordPressi paigaldamine ja seadistamine IIS-is",
+powershell_3_6: "- Skripti etapiviisilise käivitamise korraldamine",
+powershell_3_7: "- Kasutajate loomise lisamine Active Directorysse",
 }
 };
 
