@@ -59,6 +59,9 @@ link_pages_coming: "Link Pages (coming soon)",
 link_video: "Link Video",
 
 skills_name: "Skills:",
+lang_rus: "A2 - Pre-Intermediate",
+lang_eng: "B1 - Intermediate (official A2)",
+lang_est: "C2 - native",
 
 exp_1: "Installing new network equipment:",
 exp_1_2: "Laying Ethernet cables",
@@ -174,6 +177,9 @@ exp_title:"Опыт:",
 contacts_title:"Контакты:",
 
 Language: "Языки",
+lang_rus: "A2 - Уровень ниже среднего",
+lang_eng: "B1 - Средний (официальный A2)",
+lang_est: "C2 - родной язык",
 
 name_Specialist_1: "Младший специалист по ИТ-системам - Уровень 4",
 name_Specialist_2: "ИТ-техник - Уровень 4",
@@ -324,9 +330,10 @@ exp_title:"Töökogemus:",
 contacts_title:"Kontakt:",
 
 Language: "Keel",
-lang_rus: "",
-lang_eng: "",
-lang_est: "",
+
+lang_rus: "A2 - Eelkesktase",
+lang_eng: "B1 - Kesktase (ametlik A2)",
+lang_est: "C2 - emakeel",
 
 name_Specialist_1: "IT-süsteemide juunior - 4. tase",
 name_Specialist_2: "IT-tehnik - 4. tase",
