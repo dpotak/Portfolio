@@ -31,6 +31,9 @@ Language: "Language",
 name_Specialist_1: "Junior IT Systems - Level 4",
 name_Specialist_2: "IT-Techician - Level 4",
 
+text_interests: "If you have an interesting project or job offer, please write:",
+
+
 p_text_info_1: "Junior IT Specialist with diverse experience.",
 p_text_info_2: "I'm completed a seven-month internship at the Tallinn Tondiraba Hobby School.",
 p_text_info_3: "I installed and configured network equipment (cables, UniFi routers, TP-Link and Zyxel switches), ",
@@ -195,7 +198,7 @@ c_sharp_tase: "C# - Элементарный",
 Full_stack_projects: "Проекты Full-Stack Разработки:",
 Administration_net__projects: "Проекты Системного Администрирование:",
 
-
+text_interests: "Если у вас есть интересный проект или предложение о работе , то напишите:",
 
 name_Specialist_1: "Младший специалист по ИТ-системам - Уровень 4",
 name_Specialist_2: "ИТ-техник - Уровень 4",
@@ -350,6 +353,8 @@ Language: "Keel",
 lang_rus: "A2 - Eelkesktase",
 lang_eng: "B1 - Kesktase (ametlik A2)",
 lang_est: "C2 - emakeel",
+
+text_interests: "Kui sul on huvitav projekt või tööpakkumine, kirjuta palun:",
 
 python_tase: "Python - Keskmine",
 java_tase: "Java - Algmine",
