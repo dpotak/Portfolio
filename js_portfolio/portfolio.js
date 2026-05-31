@@ -45,6 +45,10 @@ Month_2: "January 2026 - May 2026",
 progects_desc: "Project Description:",
 Technologies_desc: "Technologies:",
 
+python_tase: "Python - Advanced",
+java_tase: "Java - Elementary",
+c_sharp_tase: "C# - Elementary",
+
 operator_cleaning: "Operator cleaning - level 3",
 
 html_css: "- HTML and CSS",
@@ -180,6 +184,11 @@ Language: "Языки",
 lang_rus: "A2 - Уровень ниже среднего",
 lang_eng: "B1 - Средний (официальный A2)",
 lang_est: "C2 - родной язык",
+
+python_tase: "Python - средний",
+java_tase: "Java - Элементарный",
+c_sharp_tase: "C# - Элементарный",
+
 
 name_Specialist_1: "Младший специалист по ИТ-системам - Уровень 4",
 name_Specialist_2: "ИТ-техник - Уровень 4",
@@ -334,6 +343,10 @@ Language: "Keel",
 lang_rus: "A2 - Eelkesktase",
 lang_eng: "B1 - Kesktase (ametlik A2)",
 lang_est: "C2 - emakeel",
+
+python_tase: "Python - Keskmine",
+java_tase: "Java - Algmine",
+c_sharp_tase: "C# - Algmine",
 
 name_Specialist_1: "IT-süsteemide juunior - 4. tase",
 name_Specialist_2: "IT-tehnik - 4. tase",
