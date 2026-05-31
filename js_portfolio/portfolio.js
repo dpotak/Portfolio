@@ -152,6 +152,7 @@ powershell_3_4: "- Automated database and user creation in MySQL",
 powershell_3_5: "- Uploaded and configured WordPress on IIS",
 powershell_3_6: "- Organized the script's execution in stages (staged launch)",
 powershell_3_7: "- Added user creation in Active Directory",
+cont: "Contacts:",
 },
 
 
@@ -296,6 +297,9 @@ powershell_3_4: "- Автоматизировано создание базы д
 powershell_3_5: "- Выполнена загрузка и настройка WordPress на IIS",
 powershell_3_6: "- Организовано поэтапное выполнение скрипта",
 powershell_3_7: "- Добавлено создание пользователей в Active Directory",
+
+cont: "Контакты:",
+
 },
 
 
@@ -442,6 +446,9 @@ powershell_3_4: "- MySQL andmebaasi ja kasutaja loomise automatiseerimine",
 powershell_3_5: "- WordPressi paigaldamine ja seadistamine IIS-is",
 powershell_3_6: "- Skripti etapiviisilise käivitamise korraldamine",
 powershell_3_7: "- Kasutajate loomise lisamine Active Directorysse",
+
+cont: "Kontaktid:",
+
 }
 };
 
