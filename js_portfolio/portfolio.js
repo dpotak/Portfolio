@@ -39,6 +39,7 @@ Full_stack_projects: "Projects Full-Stack Development:",
 Administration_net__projects: "Projects Systems Administration Stack:",
 
 Language: "Language",
+text_Tondi: "he code was written for submission to the competition.",
 
 courses_1:"Courses online:",
 Programming_1:"Programming",
@@ -206,6 +207,7 @@ exp_title:"Опыт:",
 contacts_title:"Контакты:",
 talIndu_center:"Таллиннский Центр Промышленного образование",
 Or_1:"Или",
+text_Tondi: "Код был написан для отправки на конкурс.",
 
 powershell_name_1:"PowerShell: Установка ​​и настройка сети",
 ansible_name_1: "Ansible: Настройка сети и Установка WordPress",
@@ -397,6 +399,7 @@ p_blog_1: "See on minu blogi.",
 p_blog_2: "Hetkel on see veel arendusjärgus.",
 
 Language: "Keel",
+text_Tondi: "Kood kirjutati võistlusele esitamiseks.",
 
 lang_rus: "C2 - emakeel",
 lang_eng: "A2 - Eelkesktase",
