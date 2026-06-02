@@ -22,6 +22,7 @@ projects_title:"Projects:",
 edu_title:"Education:",
 exp_title:"Experience:",
 contacts_title:"Contacts:",
+Or_1:"Or",
 
 powershell_name_1:"PowerShell: Installed and Settings network",
 ansible_name_1: "Ansible: Settings network and Installed WordPress",
@@ -204,6 +205,7 @@ edu_title:"Образование:",
 exp_title:"Опыт:",
 contacts_title:"Контакты:",
 talIndu_center:"Таллиннский Центр Промышленного образование",
+Or_1:"Или",
 
 powershell_name_1:"PowerShell: Установка ​​и настройка сети",
 ansible_name_1: "Ansible: Настройка сети и Установка WordPress",
@@ -385,6 +387,7 @@ talIndu_center:"Tallinna Tööstushariduskeskus",
 
 powershell_name_1:"PowerShell: võrgu installimine ja seadistamine",
 ansible_name_1: "Ansible: võrgu seadistamine ja WordPressi installimine",
+Or_1:"Või",
 
 programming_lang:"Programmeerimiskeeled",
 operations_Sys_1:"Operatsioonisüsteemid",
