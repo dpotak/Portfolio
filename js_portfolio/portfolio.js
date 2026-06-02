@@ -36,6 +36,7 @@ Programming_1:"Programming",
 
 Programming_2:"Python , GitHub , Programming",
 Programming_name_1:"Introduction to programming (practice)",
+Programming_name_2:"Introduction to programming (lectures)",
 
 name_Specialist_1: "Junior IT Systems - Level 4",
 name_Specialist_2: "IT-Techician - Level 4",
@@ -212,6 +213,7 @@ Programming_1:"Программирование",
 
 Programming_2:"Python , GitHub , Программирование",
 Programming_name_1:"Основы программирование (практика)",
+Programming_name_2:"Основы программирование (лекция)",
 
 Full_stack_projects: "Проекты Full-Stack Разработки:",
 Administration_net__projects: "Проекты Системного Администрирование:",
@@ -382,6 +384,7 @@ Programming_1:"Programmeerimine",
 
 Programming_2:"Python , GitHub , Programmeerimine",
 Programming_name_1:"Sissejuhatus programmeerimisse (praktika)",
+Programming_name_2:"Programmeerimise alused (loeng)",
 
 python_tase: "Python - Keskmine",
 java_tase: "Java - Algmine",
