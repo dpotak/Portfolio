@@ -31,6 +31,8 @@ Administration_net__projects: "Projects Systems Administration Stack:",
 
 Language: "Language",
 
+courses_1:"Courses online:",
+
 name_Specialist_1: "Junior IT Systems - Level 4",
 name_Specialist_2: "IT-Techician - Level 4",
 
@@ -201,6 +203,8 @@ python_tase: "Python - средний",
 java_tase: "Java - Элементарный",
 c_sharp_tase: "C# - Элементарный",
 
+courses_1:"Онлайн курсы:",
+
 Full_stack_projects: "Проекты Full-Stack Разработки:",
 Administration_net__projects: "Проекты Системного Администрирование:",
 
@@ -364,6 +368,8 @@ lang_eng: "B1 - Kesktase (ametlik A2)",
 lang_est: "C2 - emakeel",
 
 text_interests: "Kui sul on huvitav projekt või tööpakkumine, kirjuta palun:",
+
+courses_1:"Veebikursused:",
 
 python_tase: "Python - Keskmine",
 java_tase: "Java - Algmine",
