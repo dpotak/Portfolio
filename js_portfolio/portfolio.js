@@ -24,6 +24,7 @@ exp_title:"Experience:",
 contacts_title:"Contacts:",
 
 powershell_name_1:"PowerShell: Installed and Settings network",
+talIndu_center:"Tallinn Industrial Education Center",
 
 programming_lang:"Programmering languages",
 operations_Sys_1:"Operation Systems",
@@ -201,6 +202,7 @@ projects_title:"Проекты:",
 edu_title:"Образование:",
 exp_title:"Опыт:",
 contacts_title:"Контакты:",
+talIndu_center:"Таллиннский Центр Промышленного образование",
 
 powershell_name_1:"PowerShell: Установка ​​и настройка сети",
 programming_lang:"Языки программирование",
@@ -376,6 +378,7 @@ projects_title:"Projektid:",
 edu_title:"Haridus:",
 exp_title:"Töökogemus:",
 contacts_title:"Kontakt:",
+talIndu_center:"Tallinna Tööstushariduskeskus",
 
 powershell_name_1:"PowerShell: võrgu installimine ja seadistamine",
 programming_lang:"Programmeerimiskeeled",
