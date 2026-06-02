@@ -26,6 +26,7 @@ contacts_title:"Contacts:",
 powershell_name_1:"PowerShell: Installed and Settings network",
 
 programming_lang:"Programmering languages",
+operations_Sys_1:"Operation Systems",
 
 p_blog_1: "It's my blog.",
 p_blog_2: "At the moment it is still under development.",
@@ -202,6 +203,7 @@ contacts_title:"Контакты:",
 
 powershell_name_1:"PowerShell: Установка ​​и настройка сети",
 programming_lang:"Языки программирование",
+operations_Sys_1:"Операционные системы",
 
 p_blog_1: "Это мой блог",
 p_blog_2: "На данный момент он пока еще находиться в разработке",
@@ -377,6 +379,7 @@ contacts_title:"Kontakt:",
 
 powershell_name_1:"PowerShell: võrgu installimine ja seadistamine",
 programming_lang:"Programmeerimiskeeled",
+operations_Sys_1:"Operatsioonisüsteemid",
 
 p_blog_1: "See on minu blogi.",
 p_blog_2: "Hetkel on see veel arendusjärgus.",
