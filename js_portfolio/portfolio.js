@@ -23,6 +23,8 @@ edu_title:"Education:",
 exp_title:"Experience:",
 contacts_title:"Contacts:",
 
+powershell_name_1:"PowerShell: Installed and Settings network",
+
 p_blog_1: "It's my blog.",
 p_blog_2: "At the moment it is still under development.",
 
@@ -196,6 +198,8 @@ edu_title:"Образование:",
 exp_title:"Опыт:",
 contacts_title:"Контакты:",
 
+powershell_name_1:"PowerShell: Установка ​​и настройка сети",
+
 p_blog_1: "Это мой блог",
 p_blog_2: "На данный момент он пока еще находиться в разработке",
 
@@ -367,6 +371,8 @@ projects_title:"Projektid:",
 edu_title:"Haridus:",
 exp_title:"Töökogemus:",
 contacts_title:"Kontakt:",
+
+powershell_name_1:"PowerShell: võrgu installimine ja seadistamine",
 
 p_blog_1: "See on minu blogi.",
 p_blog_2: "Hetkel on see veel arendusjärgus.",
