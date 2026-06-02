@@ -23,6 +23,9 @@ edu_title:"Education:",
 exp_title:"Experience:",
 contacts_title:"Contacts:",
 
+p_blog_1: "It's my blog.",
+p_blog_2: "At the moment it is still under development.",
+
 Full_stack_projects: "Projects Full-Stack Development:",
 Administration_net__projects: "Projects Systems Administration Stack:",
 
@@ -186,6 +189,9 @@ edu_title:"Образование:",
 exp_title:"Опыт:",
 contacts_title:"Контакты:",
 
+p_blog_1: "Это мой блог",
+p_blog_2: "На данный момент он пока еще находиться в разработке",
+
 Language: "Языки",
 lang_rus: "A2 - Уровень ниже среднего",
 lang_eng: "B1 - Средний (официальный A2)",
@@ -347,6 +353,9 @@ projects_title:"Projektid:",
 edu_title:"Haridus:",
 exp_title:"Töökogemus:",
 contacts_title:"Kontakt:",
+
+p_blog_1: "See on minu blogi.",
+p_blog_2: "Hetkel on see veel arendusjärgus.",
 
 Language: "Keel",
 
