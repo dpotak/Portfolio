@@ -213,9 +213,9 @@ p_blog_1: "Это мой блог",
 p_blog_2: "На данный момент он пока еще находиться в разработке",
 
 Language: "Языки",
-lang_rus: "A2 - Уровень ниже среднего",
-lang_eng: "B1 - Средний (официальный A2)",
-lang_est: "C2 - родной язык",
+lang_rus: "C2 - родной язык",
+lang_eng: "A2 - Уровень ниже среднего ",
+lang_est: "B1 - Средний (официальный A2)",
 
 python_tase: "Python - средний",
 java_tase: "Java - Элементарный",
@@ -390,9 +390,9 @@ p_blog_2: "Hetkel on see veel arendusjärgus.",
 
 Language: "Keel",
 
-lang_rus: "A2 - Eelkesktase",
-lang_eng: "B1 - Kesktase (ametlik A2)",
-lang_est: "C2 - emakeel",
+lang_rus: "C2 - emakeel",
+lang_eng: "A2 - Eelkesktase",
+lang_est: "B1 - Kesktase (ametlik A2)",
 
 text_interests: "Kui sul on huvitav projekt või tööpakkumine, kirjuta palun:",
 
