@@ -34,6 +34,9 @@ Language: "Language",
 courses_1:"Courses online:",
 Programming_1:"Programming",
 
+Programming_2:"Python , GitHub , Programming",
+Programming_name_1:"Introduction to programming (practice)",
+
 name_Specialist_1: "Junior IT Systems - Level 4",
 name_Specialist_2: "IT-Techician - Level 4",
 
@@ -207,6 +210,9 @@ c_sharp_tase: "C# - Элементарный",
 courses_1:"Онлайн курсы:",
 Programming_1:"Программирование",
 
+Programming_2:"Python , GitHub , Программирование",
+Programming_name_1:"Основы программирование (практика)",
+
 Full_stack_projects: "Проекты Full-Stack Разработки:",
 Administration_net__projects: "Проекты Системного Администрирование:",
 
@@ -373,6 +379,9 @@ text_interests: "Kui sul on huvitav projekt või tööpakkumine, kirjuta palun:"
 
 courses_1:"Veebikursused:",
 Programming_1:"Programmeerimine",
+
+Programming_2:"Python , GitHub , Programmeerimine",
+Programming_name_1:"Sissejuhatus programmeerimisse (praktika)",
 
 python_tase: "Python - Keskmine",
 java_tase: "Java - Algmine",
