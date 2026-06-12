@@ -1,13 +1,13 @@
 /* ===== BASE ===== */
 
 body.body1{
-    background:black;
+    background: #070A12;
     margin:0;
     font-family:Arial, Helvetica, sans-serif;
 }
 
 h1,h2,h3,h4,p{
-    color:white;
+    color:#EAF0FF;
     margin:6px 0;
 }
 
@@ -21,7 +21,7 @@ h4{font-size:17px;}
 
 .section_2,
 .section_3,
-.section_4 
+.section_4,
 .section_6 {
     max-width:1200px;
     margin:40px auto;
@@ -32,7 +32,7 @@ h4{font-size:17px;}
 /* ===== NAVBAR ===== */
 
 .section_1{
-    background:#01011c;
+    background:#0B1024;
 }
 
 .nav_div{
@@ -47,8 +47,8 @@ h4{font-size:17px;}
 
 .nav_div_link{
     font-size:15px;
-    color:rgb(9,151,9);
-    background:black;
+    color:#7CFF7C;
+    background:#0A0F1F;
     border-radius:10px;
     padding:6px 12px;
     border:none;
@@ -56,16 +56,16 @@ h4{font-size:17px;}
 }
 
 .nav_div_link:hover{
-    background:#040445;
+    background:#121A33;
 }
 
 .nav_div_link a{
-    color:rgb(9,151,9);
+    color:#7CFF7C;
     text-decoration:none;
 }
 
 .button_1{
-    background:#040445;
+    background:#121A33;
     border:none;
     border-radius:8px;
     padding:4px 6px;
@@ -141,10 +141,10 @@ h4{font-size:17px;}
 .kvadrat_1_progetcs,
 .kvadrat_2_progetcs,
 .kvadrat_3_progetcs,
-.kvadrat_4_progetcs ,
+.kvadrat_4_progetcs,
 .kvadrat_5_progetcs {
-    background:#040445;
-    border:2px solid #040445;
+    background:#0A0F1F;
+    border:1px solid #1C2A52;
     border-radius:12px;
     padding:16px;
     min-height:180px;
@@ -153,11 +153,12 @@ h4{font-size:17px;}
     justify-content:space-between;
 }
 
-.kvadrat_2_progetcs , 
-.kvadrat_3_progetcs ,
+.kvadrat_2_progetcs,
+.kvadrat_3_progetcs,
 .kvadrat_5_progetcs {
     margin-top: 15px;
 }
+
 
 /* ===== COURSES ===== */
 
@@ -176,8 +177,8 @@ h4{font-size:17px;}
 }
 
 .email{
-    background:#040445;
-    color:white;
+    background:#121A33;
+    color:#EAF0FF;
     border:none;
     border-radius:10px;
     padding:8px 14px;
@@ -199,27 +200,85 @@ h4{font-size:17px;}
 .cert_text3,
 .cert_text4,
 .cert_text5{
-    background:#040445;
-    border:2px solid #040445;
+    background:#0A0F1F;
+    border:1px solid #1C2A52;
     border-radius:12px;
     padding:15px;
     min-height:200px;
 }
 
 
-/* ===== EXPERIENCE ===== */
+/* ===== EXPERIENCE WRAPPER ===== */
+/* ================================
+   EXPERIENCE - TIMELINE SYSTEM
+================================ */
 
-/* .Experience_job_2 */
-.Experience_job_1 {
-    background:#040445;
-    border:2px solid #040445;
-    border-radius:12px;
-    width: 1000px;
-    height: 850px;
-    margin-top:20px;
-    margin-left: 240px;
+.Experience_class{
+    text-align: center;
+    margin-bottom: 20px;
 }
 
+/* общий контейнер */
+.Experience_job_1{
+    position: relative;
+    max-width: 1000px;
+    width: 100%;
+    margin: 40px auto;
+    padding: 30px 20px 30px 50px;
+
+    background: #0A0F1F;
+    border: 1px solid #1C2A52;
+    border-radius: 14px;
+
+    box-sizing: border-box;
+}
+
+/* линия timeline */
+.Experience_job_1::before{
+    content: "";
+    position: absolute;
+    left: 22px;
+    top: 30px;
+    bottom: 30px;
+
+    width: 2px;
+    background: #1C2A52;
+}
+
+/* карточки внутри */
+.experience_block{
+    position: relative;
+    background: #0A0F1F;
+    border: 1px solid #1C2A52;
+    border-radius: 12px;
+
+    padding: 16px 16px 16px 20px;
+    margin-bottom: 16px;
+
+    transition: all .25s ease;
+}
+
+/* точка timeline */
+.experience_block::before{
+    content: "";
+    position: absolute;
+    left: -28px;
+    top: 18px;
+
+    width: 10px;
+    height: 10px;
+    background: #7CFF7C;
+    border-radius: 50%;
+
+    box-shadow: 0 0 10px rgba(124,255,124,0.4);
+}
+
+/* hover */
+.experience_block:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    border-color: #7CFF7C33;
+}
 
 /* ===== CONTACTS ===== */
 
@@ -238,5 +297,4 @@ h4{font-size:17px;}
     border:none;
     cursor:pointer;
 }
-
 

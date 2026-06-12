@@ -127,43 +127,150 @@
                         <div style="margin-top: 35px" class="sys_adm_stack_list">
                             <div class="prog_lang_stack">
                                 <h3 class="prog_lang_stack" style="margin-top: 20px; font-size: 25px;" data-i18n="programming_lang">Programmering languages</h3>
-                                <h4 style="margin-top: 10px;"><img class="Python_img" src="images_stack/python.png" width="35px" height="35px" data-i18n="python_tase">Python - Advanced</h4>
-                                <h4 style="margin-top: 10px;"><img class="Java_img" src="images_stack/java.png" width="35px" height="35px" data-i18n="java_tase">Java - Elementary</h4>
-                                <h4 style="margin-top: 10px;"><img class="CSharp_img" src="images_stack/cSharp.png" width="35px" height="35px" style="border-radius: 5px;" data-i18n="c_sharp_tase">C# - Elementary</h4>
+
+                                <div class="skill_card" onclick="toggleSkill('python')">
+                                    <div>
+                                        <img class="Python_img" src="images_stack/python.png" width="35px" height="35px" data-i18n="python_tase">
+                                        <span>Python — Advanced</span>
+                                    </div>
+
+                                      <div id="python" class="skill_projects" style="margin-left: 10px;">
+                                        <p>Python Projects</p>
+                                        <p>Internship - Tallinna Tondiraba Huvikool</p>
+                                      </div>
+                                </div>
+
+                                <div class="skill_card">
+                                    <img class="Java_img" src="images_stack/java.png" width="35px" height="35px" data-i18n="java_tase">
+                                    <span>Java - Elementary</span>
+                                </div>
+                                
+
+                                <div class="skill_card">
+                                    <img class="CSharp_img" src="images_stack/cSharp.png" width="35px" height="35px" style="border-radius: 5px;" data-i18n="c_sharp_tase">
+                                    <span>C# - Elementary</span>
+                                </div>
+                                
                             </div>
 
                             <div style="margin-top: 35px;" class="network_tech_stack">
                                 <h3 class="network_tech_stack" style="margin-top: 20px; font-size: 25px;">Network technologies stack</h3>
-                                <h4 style="margin-top: 10px; font-size: 19px;"> TCP/IP</h4>
-                                <h4 style="margin-top: 10px;"><img class="VLAN" src="images_stack/vlan.jpg" width="35px" height="35px"> VLAN</h4>
-                                <h4 style="margin-top: 10px;"><img class="DHCP" src="images_stack/dhcp.jpg" width="35px" height="35px"> DHCP</h4>
-                                <h4 style="margin-top: 10px;"><img class="DNS" src="images_stack/dns.png" width="35px" height="35px"> DNS</h4>
-                                <h4 style="margin-top: 10px;"><img class="Apache2" src="images_stack/apache2.png" width="35px" height="35px"> Apache2</h4>
-                                <h4 style="margin-top: 10px;"><img class="Nginx" src="images_stack/nginx.png" width="35px" height="35px"> Nginx</h4>
+
+                                <div class="skill_card" onclick="toggleSkill('tcp_ip')">
+                                    <span>TCP/IP</span>
+
+                                    <div id="tcp_ip" class="skill_projects" style="margin-left: 10px;">
+                                        <p>Internship - Tallinna Tondiraba Huvikool</p>
+                                    </div>
+                                </div>
+
+                                <div class="skill_card">
+                                    <img class="VLAN" src="images_stack/vlan.jpg" width="35px" height="25px">
+                                    <span>VLAN</span>
+                                </div>
+
+                                <div class="skill_card" onclick="toggleSkill('dhcp')">
+                                    <img class="DHCP" src="images_stack/dhcp.jpg" width="35px" height="35px"> 
+                                    <span>DHCP</span>
+
+                                    <div id="dhcp" class="skill_projects" style="margin-left: 10px;">
+                                        <p>Internship - Tallinna Tondiraba Huvikool</p>
+                                    </div>
+                                </div>
+
+                                <div class="skill_card">
+                                    <img class="DNS" src="images_stack/dns.png" width="35px" height="35px">
+                                    <span>DNS</span>
+                                </div>
+
+                                <div class="skill_card">
+                                    <img class="Apache2" src="images_stack/apache2.png" width="35px" height="35px">
+                                    <span>Apache2</span>
+                                </div>
+
+                                <div class="skill_card">
+                                    <img class="Nginx" src="images_stack/nginx.png" width="35px" height="35px">
+                                    <span>Nginx</span>
+                                </div>
+
                             </div>
 
                             <div style="margin-top: 35px;" class="Operation_systems_stack">
                                 <h3 class="network_tech_stack" style="margin-top: 20px; font-size: 25px;" data-i18n="operations_Sys_1">Operation Systems</h3>
-                                <h4 style="margin-top: 10px;"><img class="win_10" src="images_stack/wind10.png" width="35px" height="35px"> Windows 10</h4>
-                                <h4 style="margin-top: 10px;"><img class="win_11" src="images_stack/wind11.png" width="35px" height="35px"> Windows 11</h4>
-                                <h4 style="margin-top: 10px;"><img class="ubuntu_linux" src="images_stack/ubuntu.png" width="35px" height="35px"> Ubuntu</h4>
-                                <h4 style="margin-top: 10px;"><img class="centos_linux" src="images_stack/centos-linux.jpg" width="35px" height="35px"> CenTos 7</h4>
+
+                                <div class="skill_card" onclick="toggleSkill('wind_10')">
+                                    <img class="win_10" src="images_stack/wind10.png" width="35px" height="35px">
+                                    <span>Windows 10</span>
+
+                                    <div id="wind_10" class="skill_projects" style="margin-left: 10px;">
+                                      <p>Internship - Tallinna Tondiraba Huvikool</p>
+                                    </div>
+                                </div>
+
+                                <div class="skill_card" onclick="toggleSkill('wind_11')">
+                                    <img class="win_11" src="images_stack/wind11.png" width="35px" height="35px"> 
+                                    <span>Windows 11</span>
+
+                                    <div id="wind_11" class="skill_projects" style="margin-left: 10px;">
+                                      <p>Internship - Tallinna Tondiraba Huvikool</p>
+                                    </div>
+                                </div>
+
+                                <div class="skill_card">
+                                    <img class="ubuntu_linux" src="images_stack/ubuntu.png" width="35px" height="35px"> 
+                                    <span>Ubuntu</span>
+                                </div>
+
+                                <div class="skill_card">
+                                    <img class="centos_linux" src="images_stack/centos-linux.jpg" width="35px" height="35px">
+                                    <span>CenTos 7</span>
+                                </div>
+
                             </div>
 
                             <div style="margin-top: 35px;" class="Microsoft_office_stack">
                                 <h3 class="Microsoft_office_stack" style="margin-top: 20px; font-size: 25px;">Microsoft Office 365</h3>
-                                <h4 style="margin-top: 10px;"> <img class="microsoftWord" src="images_stack/microsoftWord.jpg" width="35px" height="35px"> Microsoft Word</h4>
-                                <h4 style="margin-top: 10px;"> <img class="excelMicrosoft" src="images_stack/excelMicrosoft.png" width="35px" height="35px"> Microsoft Excel</h4>
-                                <h4 style="margin-top: 10px;"> <img class="microsoftPowerPoint" src="images_stack/microsoftPowerPoint.png" width="35px" height="35px"> Microsoft PowerPoint</h4>
-                                <h4 style="margin-top: 10px;"> <img class="teams" src="images_stack/teams.png" width="35px" height="35px"> Microsoft Teams</h4>
+
+                                <div class="skill_card">
+                                    <img class="microsoftWord" src="images_stack/microsoftWord.jpg" width="35px" height="35px"> 
+                                    <span>Microsoft Word</span>
+                                </div>
+
+                                <div class="skill_card">
+                                    <img class="excelMicrosoft" src="images_stack/excelMicrosoft.png" width="35px" height="35px">
+                                    <span>Microsoft Excel</span>
+                                </div>
+
+                                <div class="skill_card">
+                                    <img class="microsoftPowerPoint" src="images_stack/microsoftPowerPoint.png" width="35px" height="35px">
+                                    <span>Microsoft PowerPoint</span>
+                                </div>
+
+                                <div class="skill_card">
+                                    <img class="teams" src="images_stack/teams.png" width="35px" height="35px">
+                                    <span>Microsoft Teams</span>
+                                </div>
                             </div>
 
                             <!-- Virtual Systems -->
                             <div style="margin-top: 35px;" class="Virtual_Sys_stack">
                                 <h3 style="margin-top: 20px; font-size: 25px;" data-i18n="virtual_sys_1">Virtual Systems</h3>
-                                <h4 style="margin-top: 10px;" class="virtualbox"><img src="images_stack/virtualbox.png" width="35px" height="35px">VirtualBox</h4>
-                                <h4 style="margin-top: 10px;" class="hyperV"><img style="border-radius: 2px;" src="images_stack/hyperV.png" width="35px" height="35px">HyperV</h4>
-                                <h4 style="margin-top: 20px;" class="vagrant"><img style="border-radius: 2px;" src="images_stack/vagrant.jpg" width="75px" height="35px">Vagrant</h4>
+
+                                <div class="skill_card">
+                                    <img src="images_stack/virtualbox.png" width="35px" height="35px">
+                                    <span>VirtualBox</span>
+                                </div>
+
+                                <div class="skill_card">
+                                    <img style="border-radius: 2px;" src="images_stack/hyperV.png" width="35px" height="35px">
+                                    <span>HyperV</span>
+                                </div>
+
+                                <div class="skill_card">
+                                    <img style="border-radius: 2px;" src="images_stack/vagrant.jpg" width="75px" height="35px">
+                                    <span>Vagrant</span>
+                                </div>
+
                             </div>
 
                         </div>
@@ -177,15 +284,50 @@
                     <h2>Frontend Development Stack</h2>
 
                     <div class="stack_front">
-                        <h3 style="margin-top: 10px;"><img class="HTML_img" src="images_stack/html_1.png" width="35px" height="35px"> HTML</h3>
-                        <h3 style="margin-top: 10px;"><img class="CSS_img" src="images_stack/css.png" width="35px" height="35px"> CSS</h3>
-                        <h3 style="margin-top: 10px;"><img class="Tailwind_img" src="" width="" height="">Tailwind CSS</h3>
-                        <h3 style="margin-top: 10px;"><img class="JavaScript_img" src="images_stack/JS.png" width="35px" height="35px"> JavaScript</h3>
-                        <h3 style="margin-top: 10px;"><img class="React_img" src="images_stack/React-icon.png" width="35px" height="35px"> React</h3>
-                        <h3 style="margin-top: 10px;"><img class="ThreeJS_img" src="images_stack/three.png" width="35px" height="35px"> Three.js</h3>
-                        <h3 style="margin-top: 10px;"><img class="VUE_img" src="images_stack/vue-2.png" width="35px" height="35px"> Vue.js</h3>
-                        <h3 style="margin-top: 10px;"><img class="next_js" src="images_stack/next_js.png" width="35px" height="35px">Next.js</h3>
-                        <h3 style="margin-top: 10px;"><img class="Boostrap_img" src="images_stack/bootstrap.png" width="45px" height="35px"> Bootstrap5</h3>
+
+                        <div class="skill_card">
+                            <img class="HTML_img" src="images_stack/html_1.png" width="35px" height="35px">
+                            <span>HTML</span>
+                        </div>
+
+                        <div class="skill_card">
+                            <img class="CSS_img" src="images_stack/css.png" width="35px" height="35px">
+                            <span>CSS</span>
+                        </div>
+
+                        <div class="skill_card">
+                            <span>Tailwind CSS</span>
+                        </div>
+
+                        <div class="skill_card">
+                            <img class="JavaScript_img" src="images_stack/JS.png" width="35px" height="35px">
+                            <span>JavaScript</span>
+                        </div>
+
+                        <div class="skill_card">
+                            <img class="React_img" src="images_stack/React-icon.png" width="35px" height="35px">
+                            <span>React</span>
+                        </div>
+
+                        <div class="skill_card">
+                            <img class="ThreeJS_img" src="images_stack/three.png" width="35px" height="35px"> 
+                            <span>Three.js</span>
+                        </div>
+
+                        <div class="skill_card">
+                            <img class="VUE_img" src="images_stack/vue-2.png" width="35px" height="35px">
+                            <span>Vue.js</span>
+                        </div>
+
+                        <div class="skill_card">
+                            <img class="next_js" src="images_stack/next_js.png" width="35px" height="35px">
+                            <span>Next.js</span>
+                        </div>
+
+                        <div class="skill_card">
+                            <img class="Boostrap_img" src="images_stack/bootstrap.png" width="45px" height="35px">
+                            <span>Bootstrap5</span>
+                        </div>
                     </div>
                 </div>
 
@@ -198,14 +340,30 @@
                     <div class="data_base_stack">
                         <div>
                             <h2 style="margin-top: 15px; color: rgb(11, 152, 11);">Data Base:</h2>
-                            <h3 style="margin-top: 10px;">MongoDB <img class="" src="images_stack/MongoDb.png" width="65px" height="35px"></h3>
-                            <h3 style="margin-top: 10px;">MariaDB <img class="" src="images_stack/MariaDB.png" width="35px" height="35px"></h3>
-                            <h3 style="margin-top: 10px;">MySQL <img src="images_stack/mysql.png" width="35px" height="35px"></h3>
+
+                            <div class="skill_card">
+                                <img class="" src="images_stack/MongoDb.png" width="65px" height="35px">
+                                <span>MongoDB</span>
+                            </div>
+
+                            <div class="skill_card">
+                                <img class="" src="images_stack/MariaDB.png" width="35px" height="35px">
+                                <span>MariaDB</span>
+                            </div>
+
+                            <div class="skill_card">
+                                <img src="images_stack/mysql.png" width="35px" height="35px">
+                                <span>MySQL</span>
+                            </div>
                         </div>
                     </div>
                 </div>
 
             </div>
+
+            <button class="scroll_down_btn" onclick="document.getElementById('full_stack').scrollIntoView({behavior: 'smooth'})">
+                ↓
+            </button>
 
             <div class="pet-projects">
                 <div class="name_pet_Pro">
@@ -213,7 +371,7 @@
                 </div>
 
                 <div class="kvadrat_ones">
-                 <div class="kvadrat_1_progetcs">
+                 <div class="kvadrat_1_progetcs p_25">
                     <h3 class="one_progects">My blog (coming soon)</h3>
 
                     <div class="kvadrat_pro">
@@ -227,11 +385,17 @@
                         <p class="kvadrat_pro_text">- GitHub Pages</p>
                     </div>
 
+                    <div class="project_progress">
+                        <div class="project_progress_bar"></div>
+                    </div>
+
+                    <div class="project_progress_label">25% development</div>
+
                     <a href="https://github.com/dpotak/My_blog.git"><button class="kvadrat_pro_btn" style="background-color: black; color: white; border-radius: 10px;" data-i18n="github_pages">GitHub Repositor</button></a>
                     <a href=""><button class="kvadrat_pro_btn" style="background-color: black; color: white; border-radius: 10px;" data-i18n="link_pages_coming">Link Pages (coming soon)</button></a>
                 </div>
 
-                <div class="kvadrat_4_progetcs">
+                <div class="kvadrat_4_progetcs p_10">
                     <h3 class="">Tracker Cleaning (coming soon)</h3>
                     <div class="kvadrat_pro">
                         <h3 style="margin-top: 18px; color: rgb(17, 133, 17);" data-i18n="progects_desc">Project Description:</h3>
@@ -242,11 +406,17 @@
                         <p class="kvadrat_pro_text">- Git (GitHub)</p>
                     </div>
 
+                     <div class="project_progress">
+                        <div class="project_progress_bar"></div>
+                    </div>
+
+                    <div class="project_progress_label">10% development</div>
+
                     <a href="https://github.com/dpotak/tracker_cleaning-projects-live-server-.git"><button class="kvadrat_pro_btn" style="background-color: black; color: white; border-radius: 10px;" data-i18n="github_pages">GitHub Repositor</button></a>
                     <a href=""><button class="kvadrat_pro_btn" style="background-color: black; color: white; border-radius: 10px;" data-i18n="link_pages_coming">Link Pages (coming soon)</button></a>
                 </div>
 
-                <div class="kvadrat_4_progetcs">
+                <div class="kvadrat_4_progetcs p_100">
                     <h3 class="">Sites Portfolio</h3>
                     <div class="kvadrat_pro">
                         <h3 style="margin-top: 18px; color: rgb(17, 133, 17);" data-i18n="progects_desc">Project Description:</h3>
@@ -257,12 +427,18 @@
                         <br>
                     </div>
 
+                     <div class="project_progress">
+                        <div class="project_progress_bar"></div>
+                    </div>
+
+                    <div class="project_progress_label">100% development</div>
+
                     <a href="https://github.com/dpotak/Sites_portfolio.git"><button class="kvadrat_pro_btn" style="background-color: black; color: white; border-radius: 10px;" data-i18n="github_pages">GitHub Repositor</button></a>
                     <a href="https://dpotak.github.io/Sites_portfolio/"><button class="kvadrat_pro_btn" style="background-color: black; color: white; border-radius: 10px;" data-i18n="link_pages">Link Pages</button></a>
 
                 </div>
 
-                <div class="kvadrat_4_progetcs">
+                <div class="kvadrat_4_progetcs p_100">
                     <h3>Portfolio</h3>
                     <div class="kvadrat_pro">
                         <h3 style="margin-top: 18px; color: rgb(17, 133, 17);" data-i18n="progects_desc">Project Description:</h3>
@@ -272,12 +448,18 @@
                         <p class="kvadrat_pro_text" data-i18n="html_css_javaScript">- HTML , CSS and JavaScript</p>
                     </div>
 
+                    <div class="project_progress">
+                        <div class="project_progress_bar"></div>
+                    </div>
+
+                    <div class="project_progress_label">100% development</div>
+
                      <a href="https://github.com/dpotak/Portfolio.git"><button class="kvadrat_pro_btn" style="background-color: black; color: white; border-radius: 10px;" data-i18n="github_pages">GitHub Repositor</button></a>
                      <a href="https://dpotak.github.io/Portfolio/"><button class="kvadrat_pro_btn" style="background-color: black; color: white; border-radius: 10px;" data-i18n="link_pages">Link Pages</button></a>
                    </div>
                 </div>
 
-                <div class="kvadrat_5_progetcs">
+                <div class="kvadrat_5_progetcs p_75">
                     <h3>Manga--Chan--Anime--Chan (coming soon)</h3>
                     <div class="kvadrat_pro">
                         <h3 style="margin-top: 18px; color: rgb(17, 133, 17);" data-i18n="Technologies_desc">Technologies:</h3>
@@ -326,6 +508,12 @@
                         <br>
                     </div>
 
+                    <div class="project_progress">
+                        <div class="project_progress_bar"></div>
+                    </div>
+
+                    <div class="project_progress_label">75% development</div>
+
                     <a href="https://github.com/dpotak/manga-chan--anime-chan-projects-live-server-.git"><button class="kvadrat_pro_btn" style="background-color: black; color: white; border-radius: 10px;" data-i18n="github_pages">GitHub Repositor</button></a>
                     <a href=""><button class="kvadrat_pro_btn" style="background-color: black; color: white; border-radius: 10px;" data-i18n="link_pages_coming">Link Pages (coming soon)</button></a>
                 </div>
@@ -333,11 +521,11 @@
 
             <br>
 
-            <div class="pet-projects">
+            <div class="pet-projects ">
                 <div class="name_pet_Pro">
                     <h2 class="" id="Sysdmin" style="color: rgb(17, 133, 17);" data-i18n="Administration_net__projects">Projects Systems Administration Stack:</h2>
 
-                    <div class="kvadrat_2_progetcs">
+                    <div class="kvadrat_2_progetcs p_100">
                     <h2 class="two_progects" style=" color: rgb(0, 255, 0);" data-i18n="ansible_name_1">Ansible: Settings network and Installed WordPress</h2>
                     <div class="kvadrat_pro">
                         <h2 class="h3_names_Ansible">Ansible LAMP + WordPress Automation Playbook</h2>
@@ -366,11 +554,17 @@
 
                     <br>
 
+                    <div class="project_progress">
+                        <div class="project_progress_bar"></div>
+                    </div>
+
+                    <div class="project_progress_label">100% development</div>
+
                     <a href="https://github.com/dpotak/Ansible.git"><button class="kvadrat_pro_btn" style="background-color: black; color: white; border-radius: 10px;" data-i18n="github_pages">GitHub Repositor</button></a>
                     <a href="https://www.youtube.com/watch?v=UWQJOWv9slw"><button class="kvadrat_pro_btn" style="background-color: black; color: white; border-radius: 10px;" data-i18n="link_video">Link Video</button></a>
                 </div>
 
-                <div class="kvadrat_3_progetcs">
+                <div class="kvadrat_3_progetcs p_100">
                     <h1 class="three_progects" style=" color: rgb(0, 255, 0);" data-i18n="powershell_name_1">PowerShell: Installed and Settings network</h1>
                     <div class="kvadrat_pro">
                         <h2 class="">PowerShell, Windows Server, Active Directory, DNS/DHCP, IIS, MySQL, PHP, Automation, Networking basics, Domain configuration</h2>
@@ -414,11 +608,17 @@
                         <p class="kvadrat_pro_text" data-i18n="powershell_3_6">- Organized the script's execution in stages (staged launch)</p>
                         <br>
                     </div>
+
+                    <div class="project_progress">
+                        <div class="project_progress_bar"></div>
+                    </div>
+
+                    <div class="project_progress_label">100% development</div>
                     
                     <a href="https://github.com/dpotak/Powershell-script.git"><button class="kvadrat_pro_btn" style="background-color: black; color: white; border-radius: 10px;" data-i18n="github_pages">GitHub Repositor</button></a>
                 </div>
 
-                <div class="kvadrat_3_progetcs">
+                <div class="kvadrat_3_progetcs p_100">
                     <div class="kvadrat_pro">
                         <h2 style=" color: rgb(0, 255, 0);">Python Projects for Tallinna Tondiraba Huvikool</h2>
                         <h3 style="margin-top: 18px; color: rgb(17, 133, 17);" data-i18n="Technologies_desc">Technologies:</h3>
@@ -428,6 +628,13 @@
                         <p class="kvadrat_pro_text" data-i18n="text_Tondi">The code was written for submission to the competition.</p>
 
                     </div>
+
+                    <div class="project_progress">
+                        <div class="project_progress_bar"></div>
+                    </div>
+
+                    <div class="project_progress_label">100% development</div>
+
                     <a href="https://github.com/dpotak/Python.git"><button class="kvadrat_pro_btn" style="background-color: black; color: white; border-radius: 10px;" data-i18n="github_pages">GitHub Repositor</button></a>
                 </div>
                 </div>
@@ -573,10 +780,8 @@
         </div>
     </section>
 
-    <br>
-
     <section class="section_4" id="experience">
-        <h2 class="Experience_class" style="color: rgb(9, 151, 9); margin-left: 240px;">Expierence: </h2>
+        <h2 class="Experience_class" style="color: rgb(9, 151, 9);">Expierence: </h2>
         <div class="Experience_job_1">
             <h2 style="color: rgb(9, 151, 9); margin-left: 10px;">Tallinna Tondiraba Huvikool - Internship</h2>
             <h3 class="name_proffesion">Intership - System Administrator / IT-Support</h3>
@@ -628,7 +833,7 @@
                 <p class="p_text_1" data-i18n="exp_5_1">- Programmed practical work in Python</p>
                 
                 <div class="link_GitHub_projects">
-                    <a href="https://github.com/dpotak/Python/blob/main/vera_molnur.py"><button class="link_GitHub_projects" style="background-color: black; color: white; border-radius: 10px; width: 195px; height: 35px;">GitHub - Python Progects</button></a>
+                    <a href="https://github.com/dpotak/Python/blob/main/vera_molnur.py"><button class="link_GitHub_projects" style="background-color: black; color: white; border-radius: 10px; width: 205px; height: 35px;">GitHub - Python Progects</button></a>
                 </div>
               </div>
             </div>
@@ -636,63 +841,42 @@
         </div>
     </section>
 
-    <!--<section class="section_4" id="experience">
-        <div class="Experience_job_2">
+    <section class="section_4" id="experience">
+        <div class="Experience_job_1">
             <h3 style="color: rgb(9, 151, 9); margin-left: 10px;">West Tallinn Central Hospital Emergency Medicine Department</h3>
             <h3 class="name_proffesion">Work - Cleaning machine operator</h3>
             <h3 class="year_month_2">January 2026 - Marts 2026</h3>
             <div class="sec-1_2">
-              <p class="p_exp1_1" style="color: rgb(9, 151, 9);">— Control of modern cleaning equipment: operating a cleaning machine.</p>
-              <p class="p_exp1_2" style="color: rgb(9, 151, 9);">— And AI wet cleaning systems. Setting up and monitoring autonomous cleaning cycles of an AI mop.</p>
-              <p class="p_exp1_3" style="color: rgb(9, 151, 9);">— work according to a strict schedule and routes</p>
-              <p class="p_exp1_4" style="color: rgb(9, 151, 9);">— responsibility for equipment and areas</p>
-              <p class="p_exp1_5" style="color: rgb(9, 151, 9);">— task planning</p>
-              <p class="p_exp1_" style="color: rgb(9, 151, 9);">— work under high workloads</p>
+              <p class="p_exp1_1">— Control of modern cleaning equipment: operating a cleaning machine.</p>
+              <p class="p_exp1_2">— And AI wet cleaning systems. Setting up and monitoring autonomous cleaning cycles of an AI mop.</p>
+              <p class="p_exp1_3">— work according to a strict schedule and routes</p>
+              <p class="p_exp1_4">— responsibility for equipment and areas</p>
+              <p class="p_exp1_5">— task planning</p>
+              <p class="p_exp1_">— work under high workloads</p>
             </div>
         </div>
-    </section> -->
+    </section> 
 
-    <br>
-    <br>
+    
+    <section class="contacts_section" id="contact">
 
-    <section class="section_6">
-        <br>
-        <div class="text_forEmail">
-                <h2 style="color: rgb(9, 151, 9);" class="text_interests" data-i18n="text_interests">If you have an interesting project or job offer, please write:</h2> 
-            </div>
+    <h2 class="contacts_title">Contact Me</h2>
 
-            <div class="btn_gmail_copy">
-                <button class="email" onclick="copyEmail()">
-                   Copy email <i class="fa-regular fa-copy"></i> <!-- Button for copy gmail-->
-                </button>
+    <div class="contacts_email">
+        <p>Email:</p>
+        <button onclick="copyEmail()" class="email_btn">
+            Copy email
+        </button>
+        <span id="emailText">darjapotak@gmail.com</span>
+    </div>
 
-                <div class="h4_gmail" id="emailText">
-                    <h4>darjapotak@gmail.com</h4>
-                </div>
-            </div>
+    <div class="contacts_socials">
+        <a href="www.linkedin.com/in/darja-potak-11884b350" target="_blank">LinkedIn</a>
+        <a href="https://www.instagram.com/d_potak_draw/" target="_blank">Instagram</a>
+        <a href="https://github.com/dpotak?tab=overview&from=2026-05-01&to=2026-05-31" target="_blank">GitHub</a>
+    </div>
 
-            <br>
-
-            <div class="or_1" data-i18n="">
-                <h3 data-i18n="">Or</h3>
-            </div>
-
-        <h1 class="Contacts_class" style="margin-top: 10px; color: rgb(9, 151, 9);" data-i18n="cont">Contacts: </h1>
-        <div class="Contacts_job_1" id="contact">
-            <a class="btn_2_link" href="https://www.linkedin.com/in/darja-potak-11884b350" target="_blank" rel="noopener"><button class="btn_1_link" style="background-color: darkblue; color: white; border-radius: 10px;">Linkedin</button></a>
-            <a class="btn_2_link" href="https://www.instagram.com/d_potak_draw/"><button class="btn_1_link" style="background-color: orangered; color: white; border-radius: 10px;">Instgram</button></a>
-            <a class="btn_2_link" href="https://github.com/dpotak"><button class="btn_1_link" style="background-color: black; color: white; border-radius: 10px;">GitHub</button></a>
-        </div>
-        <br>
-        </div>
-
-        <div>
-            <h6 style="color: white; margin-left: 800px; margin-top: 25px;">© Darja Potak 2026</h6>
-        </div>
-
-    </section>
-
-    <br>
+</section>
 
     <script src="js_portfolio/portfolio.js"></script>
 

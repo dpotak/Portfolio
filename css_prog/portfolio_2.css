@@ -1,3 +1,4 @@
+
 /* ===== HOVER EFFECT ===== */
 
 .cert_text1,
@@ -9,8 +10,7 @@
 .kvadrat_2_progetcs,
 .kvadrat_3_progetcs,
 .kvadrat_4_progetcs,
-.Experience_job_1,
-.Experience_job_2{
+.Experience_job_1{
     transition:transform .25s ease, box-shadow .25s ease;
 }
 
@@ -23,10 +23,9 @@
 .kvadrat_2_progetcs:hover,
 .kvadrat_3_progetcs:hover,
 .kvadrat_4_progetcs:hover,
-.Experience_job_1:hover,
-.Experience_job_2:hover{
+.Experience_job_1:hover{
     transform:translateY(-6px);
-    box-shadow:0 0 12px rgba(9,151,9,.6);
+    box-shadow:0 0 18px rgba(124,255,124,.25);
 }
 
 
@@ -48,4 +47,3 @@
 }
 
 }
-
