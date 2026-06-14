@@ -60,7 +60,6 @@ name_Specialist_2: "IT-Techician - Level 4",
 
 text_interests: "If you have an interesting project or job offer, please write:",
 
-
 p_text_info_1: "Junior IT Specialist with diverse experience.",
 p_text_info_2: "I'm completed a seven-month internship at the Tallinn Tondiraba Hobby School.",
 p_text_info_3: "I installed and configured network equipment (cables, UniFi routers, TP-Link and Zyxel switches), ",
@@ -99,6 +98,16 @@ skills_name: "Skills:",
 lang_rus: "A2 - Pre-Intermediate",
 lang_eng: "B1 - Intermediate (official A2)",
 lang_est: "C2 - native",
+
+
+
+portfolio_1: "",
+my_blog_1: "",
+Pet_prog_sites_Port_1: "",
+Pet_prog_manga_chan_1: "",
+Pet_prog_tracker_cleaning_1: "",
+
+
 
 exp_1: "Installing new network equipment:",
 exp_1_2: "Laying Ethernet cables",
