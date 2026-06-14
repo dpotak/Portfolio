@@ -492,7 +492,6 @@ Pet_prog_sites_Port_1: "Hobiprojekt - Sites Portfolio",
 Pet_prog_manga_chan_1: "Hobiprojekt - Manga--Chan--Anime--Chan",
 Pet_prog_tracker_cleaning_1: "Hobiprojekt - Tracker Cleaning",
 
-
 exp_1: "Uute võrguseadmete paigaldamine:",
 exp_1_2: "Etherneti kaablite paigaldamine",
 exp_1_3: "Uute kommutaatorite paigaldamine (mudel: TP-LINK, Zyxel)",
