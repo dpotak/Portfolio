@@ -99,15 +99,11 @@ lang_rus: "A2 - Pre-Intermediate",
 lang_eng: "B1 - Intermediate (official A2)",
 lang_est: "C2 - native",
 
-
-
 portfolio_1: "Portfolio",
 my_blog_1: "My blog",
 Pet_prog_sites_Port_1: "Pet-Progects - Sites Portfolio",
 Pet_prog_manga_chan_1: "Pet-Progects - Manga--Chan--Anime--Chan",
 Pet_prog_tracker_cleaning_1: "Pet-Progects - Tracker Cleaning",
-
-
 
 exp_1: "Installing new network equipment:",
 exp_1_2: "Laying Ethernet cables",
@@ -297,6 +293,12 @@ Technologies_desc: "Технологии:",
 Month_1: "Август 2020 г. - июнь 2024 г.",
 Month_2: "Январь 2026 г. - май 2026 г.",
 
+portfolio_1: "ПОртфолио",
+my_blog_1: "Мой блог",
+Pet_prog_sites_Port_1: "Проект для хобби - Sites Portfolio",
+Pet_prog_manga_chan_1: "Проект для хобби - Manga--Chan--Anime--Chan",
+Pet_prog_tracker_cleaning_1: "Проект для хобби - Tracker Cleaning",
+
 exp_1: "Установка нового сетевого оборудования",
 exp_1_2: "Прокладка кабелей Ethernet",
 exp_1_3: "Установка новых коммутаторов (модель: TP-LINK, Zyxel)",
@@ -483,6 +485,13 @@ link_pages_coming: "Lingilehed (varsti tulekul)",
 link_video: "Lingivideo",
 
 skills_name: "Oskused:",
+
+portfolio_1: "Portfolio",
+my_blog_1: "Minu blogi",
+Pet_prog_sites_Port_1: "Hobiprojekt - Sites Portfolio",
+Pet_prog_manga_chan_1: "Hobiprojekt - Manga--Chan--Anime--Chan",
+Pet_prog_tracker_cleaning_1: "Hobiprojekt - Tracker Cleaning",
+
 
 exp_1: "Uute võrguseadmete paigaldamine:",
 exp_1_2: "Etherneti kaablite paigaldamine",
