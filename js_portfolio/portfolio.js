@@ -229,6 +229,10 @@ lang_rus: "C2 - родной язык",
 lang_eng: "A2 - Уровень ниже среднего ",
 lang_est: "B1 - Средний (официальный A2)",
 
+lhv_1: "Чтобы подготовиться к стажировке в банке (банк LHV), я самостоятельно изучила Java и разработала небольшой проект — калькулятор в консольной и графической версиях».",
+lhv_2: "В процессе я изучила объектно-ориентированное программирование и основы разработки приложений».",
+lhv_3: "Несмотря на отказ, я получила практический опыт работы с новым языком программирования и самостоятельно освоил технологии».",
+
 python_tase: "Python - средний",
 java_tase: "Java - Элементарный",
 c_sharp_tase: "C# - Элементарный",
@@ -405,6 +409,10 @@ p_blog_2: "Hetkel on see veel arendusjärgus.",
 
 Language: "Keel",
 text_Tondi: "Kood kirjutati võistlusele esitamiseks.",
+
+lhv_1: "Pangapraktikaks (LHV Pank) valmistumiseks õppisin ise Java keelt ja arendasin väikese projekti – kalkulaatori nii konsooli- kui ka graafilises versioonis.",
+lhv_2: "Protsessi käigus õppisin objektorienteeritud programmeerimist ja rakenduste arendamise põhitõdesid.",
+lhv_3: "Vaatamata tagasilükkamisele sain praktilisi kogemusi uue programmeerimiskeelega ja valdasin ise tehnoloogiaid.",
 
 lang_rus: "C2 - emakeel",
 lang_eng: "A2 - Eelkesktase",
