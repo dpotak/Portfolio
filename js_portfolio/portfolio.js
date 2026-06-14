@@ -38,6 +38,11 @@ p_blog_2: "At the moment it is still under development.",
 Full_stack_projects: "Projects Full-Stack Development:",
 Administration_net__projects: "Projects Systems Administration Stack:",
 
+lhv_1: "To prepare for an internship in banking (LHV bank), I taught myself Java and developed a small project—a calculator in both console and graphical versions.",
+lhv_2: "During the process, I learned about object-oriented programming and the basics of application development.",
+lhv_3: "Despite my rejection, I gained practical experience working with a new programming language and independently mastering technologies.",
+
+
 Language: "Language",
 text_Tondi: "he code was written for submission to the competition.",
 
