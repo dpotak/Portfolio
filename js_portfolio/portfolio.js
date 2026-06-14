@@ -101,11 +101,11 @@ lang_est: "C2 - native",
 
 
 
-portfolio_1: "",
-my_blog_1: "",
-Pet_prog_sites_Port_1: "",
-Pet_prog_manga_chan_1: "",
-Pet_prog_tracker_cleaning_1: "",
+portfolio_1: "Portfolio",
+my_blog_1: "My blog",
+Pet_prog_sites_Port_1: "Pet-Progects - Sites Portfolio",
+Pet_prog_manga_chan_1: "Pet-Progects - Manga--Chan--Anime--Chan",
+Pet_prog_tracker_cleaning_1: "Pet-Progects - Tracker Cleaning",
 
 
 
