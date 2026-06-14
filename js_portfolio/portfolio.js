@@ -24,6 +24,8 @@ exp_title:"Experience:",
 contacts_title:"Contacts:",
 Or_1:"Or",
 
+pet_work: "Work/Pet-Progects",
+
 powershell_name_1:"PowerShell: Installed and Settings network",
 ansible_name_1: "Ansible: Settings network and Installed WordPress",
 talIndu_center:"Tallinn Industrial Education Center",
@@ -214,6 +216,8 @@ talIndu_center:"Таллиннский Центр Промышленного о�
 Or_1:"Или",
 text_Tondi: "Код был написан для отправки на конкурс.",
 
+pet_work: "Работа/Проекты для хобби",
+
 powershell_name_1:"PowerShell: Установка ​​и настройка сети",
 ansible_name_1: "Ansible: Настройка сети и Установка WordPress",
 
@@ -399,6 +403,8 @@ talIndu_center:"Tallinna Tööstushariduskeskus",
 powershell_name_1:"PowerShell: võrgu installimine ja seadistamine",
 ansible_name_1: "Ansible: võrgu seadistamine ja WordPressi installimine",
 Or_1:"Või",
+
+pet_work: "Töö-/lemmikloomaprojektid",
 
 programming_lang:"Programmeerimiskeeled",
 operations_Sys_1:"Operatsioonisüsteemid",
