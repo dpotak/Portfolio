@@ -105,6 +105,8 @@ Pet_prog_sites_Port_1: "Pet-Progects - Sites Portfolio",
 Pet_prog_manga_chan_1: "Pet-Progects - Manga--Chan--Anime--Chan",
 Pet_prog_tracker_cleaning_1: "Pet-Progects - Tracker Cleaning",
 
+inter_TTH_1: "Intership - Tallinna Tondiraba Huvikool",
+
 exp_1: "Installing new network equipment:",
 exp_1_2: "Laying Ethernet cables",
 exp_1_3: "Installing new switches (model: TP-LINK, Zyxel)",
@@ -299,6 +301,8 @@ Pet_prog_sites_Port_1: "Проект для хобби - Sites Portfolio",
 Pet_prog_manga_chan_1: "Проект для хобби - Manga--Chan--Anime--Chan",
 Pet_prog_tracker_cleaning_1: "Проект для хобби - Tracker Cleaning",
 
+inter_TTH_1: "Практика - Tallinna Tondiraba Huvikool",
+
 exp_1: "Установка нового сетевого оборудования",
 exp_1_2: "Прокладка кабелей Ethernet",
 exp_1_3: "Установка новых коммутаторов (модель: TP-LINK, Zyxel)",
@@ -491,6 +495,8 @@ my_blog_1: "Minu blogi",
 Pet_prog_sites_Port_1: "Hobiprojekt - Sites Portfolio",
 Pet_prog_manga_chan_1: "Hobiprojekt - Manga--Chan--Anime--Chan",
 Pet_prog_tracker_cleaning_1: "Hobiprojekt - Tracker Cleaning",
+
+inter_TTH_1: "Praktika - Tallinna Tondiraba Huvikool",
 
 exp_1: "Uute võrguseadmete paigaldamine:",
 exp_1_2: "Etherneti kaablite paigaldamine",
