@@ -94,12 +94,238 @@ h4{font-size:17px;}
 }
 
 
-/* ===== EDUCATION ===== */
+/* =========================
+   EDUCATION TIMELINE
+========================= */
 
-.Education{
-    margin-top:20px;
+.education_section {
+    margin-top:40px;
 }
 
+.edu_title {
+    color:#7CFF7C;
+    margin-bottom:30px;
+}
+
+
+.education_timeline {
+    position:relative;
+    padding-left:45px;
+    max-width:900px;
+}
+
+
+.education_timeline::before {
+    content:"";
+    position:absolute;
+    left:14px;
+    top:0;
+    bottom:0;
+    width:2px;
+    background:#1C2A52;
+}
+
+
+.edu_card{
+    position:relative;
+    background:#0A0F1F;
+    border:1px solid #1C2A52;
+    border-radius:14px;
+    padding:20px;
+    margin-bottom:18px;
+    transition:.3s;
+}
+
+.edu_card:hover {
+    transform:translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0,0,0,.35);
+    border-color:#7CFF7C;
+}
+
+
+.edu_dot{
+
+position:absolute;
+
+left:-38px;
+
+top:26px;
+
+width:16px;
+
+height:16px;
+
+background:#7CFF7C;
+
+border-radius:50%;
+
+box-shadow:
+0 0 18px
+rgba(124,255,124,.6);
+}
+
+
+.edu_card h2{
+
+color:#7CFF7C;
+
+font-size:22px;
+
+margin-bottom:10px;
+}
+
+
+.edu_card h3{
+
+font-size:18px;
+
+margin-top:6px;
+}
+
+
+.edu_date{
+
+color:#A0A9C0;
+
+margin-top:12px;
+
+font-size:14px;
+}
+
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.education_timeline{
+
+padding-left:30px;
+
+}
+
+.edu_dot{
+
+left:-28px;
+
+}
+
+}
+
+/* ==================
+EDUCATION TIMELINE
+================== */
+
+.Education{
+margin-top:20px;
+}
+
+.edu_title,
+.courses_title{
+color:#7CFF7C;
+margin-bottom:25px;
+}
+
+.education_timeline{
+
+position:relative;
+
+padding-left:45px;
+
+max-width:850px;
+}
+
+
+.education_timeline::before{
+
+content:"";
+
+position:absolute;
+
+left:14px;
+
+top:0;
+
+bottom:0;
+
+width:2px;
+
+background:#1C2A52;
+}
+
+
+.edu_card{
+
+position:relative;
+
+background:#0A0F1F;
+
+border:1px solid #1C2A52;
+
+border-radius:14px;
+
+padding:20px;
+
+margin-bottom:18px;
+
+transition:.25s;
+}
+
+
+.edu_card:hover{
+
+transform:translateY(-4px);
+
+border-color:#7CFF7C;
+
+box-shadow:
+0 12px 24px
+rgba(0,0,0,.35);
+}
+
+
+.edu_dot{
+
+position:absolute;
+
+left:-38px;
+
+top:24px;
+
+width:14px;
+
+height:14px;
+
+background:#7CFF7C;
+
+border-radius:50%;
+
+box-shadow:
+0 0 12px
+rgba(124,255,124,.5);
+}
+
+
+.edu_date{
+
+margin-top:10px;
+
+color:#8A95B5;
+
+font-size:15px;
+}
+
+
+@media(max-width:768px){
+
+.education_timeline{
+padding-left:30px;
+}
+
+.edu_dot{
+left:-28px;
+}
+
+}
 
 /* ===== LANGUAGES ===== */
 
