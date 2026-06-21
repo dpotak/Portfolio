@@ -132,4 +132,5 @@ li {
     object-fit: cover;
     border: 3px solid black;
     margin-top: 10px;
+    font-family: Arial, sans-serif;
 }
