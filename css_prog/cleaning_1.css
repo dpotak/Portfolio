@@ -103,6 +103,17 @@ p {
     font-size: 13px;
 }
 
+.muted_1 {
+    color: #888;
+    font-size: 14px;
+}
+
+
+
+.div_card_1 {
+    display: flex;
+}
+
 /* LIST */
 ul {
     margin: 8px 0 0;
@@ -112,4 +123,13 @@ ul {
 li {
     margin-bottom: 4px;
     font-size: 14px;
+}
+
+.btn_cods {
+    background-color: #00ff88;
+    color: #050505;
+    border-radius: 8px;
+    object-fit: cover;
+    border: 3px solid black;
+    margin-top: 10px;
 }
