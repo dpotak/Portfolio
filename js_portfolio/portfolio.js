@@ -34,8 +34,12 @@ programming_lang:"Programmering languages",
 operations_Sys_1:"Operation Systems",
 virtual_sys_1: "Virtual Systems",
 
+p_todo_1: "It's Todo App. Programms The program was initially written in HTML, CSS, and JavaScript. It was later rewritten in Vue.js.",
 p_blog_1: "It's my blog.",
 p_blog_2: "At the moment it is still under development.",
+
+h4_contact_1: "Looking for a Junior IT Specialist or Junior Full-Stack Developer?",
+h4_contact_2: "Or do you have an idea for your project? Let's discuss it.",
 
 Full_stack_projects: "Projects Full-Stack Development:",
 Administration_net__projects: "Projects Systems Administration Stack:",
@@ -232,8 +236,12 @@ programming_lang:"Языки программирование",
 operations_Sys_1:"Операционные системы",
 virtual_sys_1: "Виртуальные системы",
 
+p_todo_1: "Это приложение для списка дел. Программа изначально была написана на HTML, CSS и JavaScript. Позже она была переписана на Vue.js.",
 p_blog_1: "Это мой блог",
 p_blog_2: "На данный момент он пока еще находиться в разработке",
+
+h4_contact_1: "Ищите Младшего ИТ-Специалсита или Джуниора Full-Stack разработчика? ",
+h4_contact_2: "Или у вас есть идея для вашего проекта? Давайте обсудим ваш проект.",
 
 Language: "Языки",
 lang_rus: "C2 - родной язык",
@@ -425,8 +433,12 @@ programming_lang:"Programmeerimiskeeled",
 operations_Sys_1:"Operatsioonisüsteemid",
 virtual_sys_1: "Virtuaalsed süsteemid",
 
+p_todo_1: "See on Todo rakendus. Programm kirjutati algselt HTML-is, CSS-is ja JavaScriptis. Hiljem kirjutati see ümber Vue.js-is.",
 p_blog_1: "See on minu blogi.",
 p_blog_2: "Hetkel on see veel arendusjärgus.",
+
+h4_contact_1: "Kas otsite nooremat IT-spetsialisti või nooremat Full-Stack arendajat?",
+h4_contact_2: "Või on teil oma projekti jaoks idee? Arutagem seda.",
 
 Language: "Keel",
 text_Tondi: "Kood kirjutati võistlusele esitamiseks.",
