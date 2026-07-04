@@ -282,10 +282,27 @@ button:active,
 }
 
 .contacts_socials a {
-    margin: 0 10px;
     color: #7CFF7C;
     text-decoration: none;
 }
+
+.contacts_socials {
+    display: flex;
+    margin-left: 480px;
+}
+
+.a_1 , .a_2 , .a_3 {
+    margin-left: 15px;
+    width: 180px;
+    height: 100px;
+    background: #0d1428;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center; /* Выравнивание по горизонтали */
+    align-items: center;     
+}
+
 
 .skill_card {
     display: flex;
