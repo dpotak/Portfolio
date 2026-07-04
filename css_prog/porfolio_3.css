@@ -288,7 +288,10 @@ button:active,
 
 .contacts_socials {
     display: flex;
-    margin-left: 480px;
+
+    display: flex;
+    justify-content: center; /* Выравнивание по горизонтали */
+    align-items: center;    
 }
 
 .a_1 , .a_2 , .a_3 {
