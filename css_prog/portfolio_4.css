@@ -1,0 +1,68 @@
+.star{
+    color:#bdbdbd;
+}
+
+.star.active{
+    color:#f5b301;
+}
+
+.difficulty {
+    margin-top: 3px;
+}
+
+.project-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    z-index: 1;
+}
+
+
+/* видео фон */
+.project-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+
+    opacity: 0;
+
+    transition: opacity 0.5s ease;
+
+    z-index: -1;
+}
+
+/* затемнение чтобы текст читался */
+.project-card::before {
+    content: "";
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0,0,0,0.55);
+
+    opacity: 0;
+    transition: 0.5s;
+
+    z-index: -1;
+}
+
+
+/* наведение */
+.project-card:hover .project-video {
+    opacity: 0.45;
+}
+
+
+.project-card:hover::before {
+    opacity: 1;
+}
+

@@ -38,10 +38,20 @@ p_todo_1: "It's Todo App. Programms The program was initially written in HTML, C
 p_blog_1: "It's my blog.",
 p_blog_2: "At the moment it is still under development.",
 
+My_blog_p1: "- Translate and write text for blog",
+My_blog_p2: "- Create components UI helpes HTML and CSS",
+My_blog_p3: "- Working Git - Control Version.",
+My_blog_p4: "- Deployment using GitHub Pages.",
+diffectly: "Difficulty:",
+cert_ofc: "Certificate (official):",
+cert_ofc_not: "Certificate courses (not official):",
+
 h4_contact_1: "Looking for a Junior IT Specialist or Junior Full-Stack Developer?",
 h4_contact_2: "Or do you have an idea for your project? Let's discuss it.",
 
 Full_stack_projects: "Projects Full-Stack Development:",
+Front_projects: "Projects Frontend Development:", // 
+Front_projects_2: "Frontend Development Stack",
 Administration_net__projects: "Projects Systems Administration Stack:",
 
 lhv_1: "To prepare for an internship in banking (LHV bank), I taught myself Java and developed a small project—a calculator in both console and graphical versions.",
@@ -229,8 +239,18 @@ text_Tondi: "Код был написан для отправки на конк�
 
 pet_work: "Работа/Проекты для хобби",
 
+cert_ofc: "Сертификат (официальный):",
+cert_ofc_not: "Сертификаты от курсов (неофициальные):",
+
 powershell_name_1:"PowerShell: Установка ​​и настройка сети",
 ansible_name_1: "Ansible: Настройка сети и Установка WordPress",
+
+My_blog_p1: "- Перевод и написание контента для блога.",
+My_blog_p2: "- Создание компонентов пользовательского интерфейса с помощью HTML и CSS.",
+My_blog_p3: "- Работа с Git для контроля версий.",
+My_blog_p4: "- Развертывание проекта с помощью GitHub Pages.",
+
+diffectly: "Сложность:",
 
 programming_lang:"Языки программирование",
 operations_Sys_1:"Операционные системы",
@@ -264,6 +284,7 @@ Programming_name_1:"Основы программирование (практи�
 Programming_name_2:"Основы программирование (лекция)",
 
 Full_stack_projects: "Проекты Full-Stack Разработки:",
+Front_projects: "Проекты Frontend Разработки",
 Administration_net__projects: "Проекты Системного Администрирование:",
 
 text_interests: "Если у вас есть интересный проект или предложение о работе , то напишите:",
@@ -427,6 +448,16 @@ powershell_name_1:"PowerShell: võrgu installimine ja seadistamine",
 ansible_name_1: "Ansible: võrgu seadistamine ja WordPressi installimine",
 Or_1:"Või",
 
+cert_ofc: "Tunnistus (ametlik):",
+cert_ofc_not: "Sertifikaadikursused (mitteametlikud):",
+
+My_blog_p1: "- Tõlgin ja kirjutan blogi sisu.",
+My_blog_p2: "- Loon kasutajaliidese komponente HTML-i ja CSS-i abil.",
+My_blog_p3: "- Töötan Gitiga versioonihalduseks.",
+My_blog_p4: "- Avaldan projekti GitHub Pagesi abil.",
+
+diffectly: "Raskusaste:",
+
 pet_work: "Töö-/lemmikloomaprojektid",
 
 programming_lang:"Programmeerimiskeeled",
@@ -465,6 +496,7 @@ java_tase: "Java - Algmine",
 c_sharp_tase: "C# - Algmine",
 
 Full_stack_projects: "Projektid Full-Stack arenduse:",
+Front_projects: "Frontendi arendusprojektid",
 Administration_net__projects: "Süsteemide administreerimise pinu projektid:",
 
 name_Specialist_1: "IT-süsteemide juunior - 4. tase",
@@ -641,3 +673,49 @@ const block=document.getElementById(id);
 block.classList.toggle("active");
 
 }
+document.querySelectorAll(".projects-slider").forEach(slider => {
+
+    const wrapper = slider.querySelector(".projects-wrapper");
+    const slides = slider.querySelectorAll(".project-slide");
+    const next = slider.querySelector(".project-next");
+    const prev = slider.querySelector(".project-prev");
+
+    let current = 0;
+
+    function updateSlider() {
+        wrapper.style.transform = `translateX(-${current * 100}%)`;
+    }
+
+    next.addEventListener("click", () => {
+        current = (current + 1) % slides.length;
+        updateSlider();
+    });
+
+    prev.addEventListener("click", () => {
+        current = (current - 1 + slides.length) % slides.length;
+        updateSlider();
+    });
+
+});
+
+const cards = document.querySelectorAll(".project-card");
+
+cards.forEach(card => {
+
+    const video = card.querySelector(".project-video");
+
+    if(video){
+
+        card.addEventListener("mouseenter", () => {
+            video.play();
+        });
+
+
+        card.addEventListener("mouseleave", () => {
+            video.pause();
+            video.currentTime = 0;
+        });
+
+    }
+
+});

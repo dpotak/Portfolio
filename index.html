@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css_prog/portfolio_1.css">
     <link rel="stylesheet" href="css_prog/portfolio_2.css">
     <link rel="stylesheet" href="css_prog/porfolio_3.css">
+    <link rel="stylesheet" href="css_prog/portfolio_4.css">
     <link rel="icon" type="image/x-icon" href="images_flag/code-solid.svg">
     <title>IT Portfolio: Darja Potak</title>
 </head> 
@@ -32,8 +33,11 @@
                     <button class="a_nav_link"><a href="CV_rus.pdf">CV Resume Russia</a></button>
                   </div>
                 </div>
+                
+                <!-- Поиск по профессии 
+                <div class="poisk_stack_prof">
+                </div> -->
 
-                <!-- <button class="nav_div_link"><a href="cleaning.html" class="nav_div_link">Cleaning Operator Portfolio</a></button> -->
                 <!--<button class="nav_div_link"><a href="" class="nav_div_link">My blog</a></button>-->
 
                 <button class="button_1" onclick="setLang('en')"><img src="images_flag/britain_flags.png" width="20"></button>
@@ -459,7 +463,7 @@ q
 
                 <!-- Frontend Stack -->
                 <div class="FRONTEND_div">
-                    <h2 style="color: rgb(17, 133, 17);">Frontend Development Stack</h2>
+                    <h2 style="color: rgb(17, 133, 17);" data-i18n="Front_projects_2">Frontend Development Stack</h2>
 
                     <div class="stack_front">
 
@@ -557,7 +561,7 @@ q
 
                 <!-- Full-Stack -->
                 <div class="FULL_STACK_div">
-                    <h2 style="margin-top: 45px; color: rgb(124, 255, 124)">Full-Stack Development Stack</h2>
+                    <h2 style="margin-top: 45px; color: rgb(124, 255, 124)">Development Stack (Data Base)</h2>
 
                     <div class="data_base_stack">
                         <div>
@@ -606,106 +610,256 @@ q
 
             </div>
 
-            <button class="scroll_down_btn" onclick="document.getElementById('full_stack').scrollIntoView({behavior: 'smooth'})">
+           <!--  <button class="scroll_down_btn" onclick="document.getElementById('full_stack').scrollIntoView({behavior: 'smooth'})">
                 ↓
-            </button>
+            </button> -->
+
+            <br>
+            <br>
 
             <div class="pet-projects">
                 <div class="name_pet_Pro">
-                    <h2 class="projects_pet_1" id="full_stack" style="color: rgb(124, 255, 124)" data-i18n="Full_stack_projects">Projects Full-Stack Development:</h2>
+                    <h2 class="projects_pet_1" id="full_stack" style="color: rgb(124, 255, 124)" data-i18n="Front_projects">Projects Frontend Development:</h2>
                 </div>
 
-                <div class="kvadrat_ones">
-                 <div class="kvadrat_1_progetcs p_50">
-                    <h3 class="one_progects">My blog (coming soon)</h3>
+                    <div class="projects-slider">
+                        <button class="project-prev">&lt;</button>
+                        <div class="projects-wrapper">
+                            <!-- SLIDE 1 -->
 
-                    <div class="kvadrat_pro">
-                        <h3 style="margin-top: 5px; color: rgb(17, 133, 17);" data-i18n="progects_desc">Project Description:</h3>
-                        <p class="p_blog_1" data-i18n="p_blog_1">It's my blog.</p>
-                        <p class="p_blog_2" data-i18n="p_blog_2">At the moment it is still under development.</p>
-                        <h3 style="margin-top: 18px; color: rgb(17, 133, 17);" data-i18n="Technologies_desc">Technologies:</h3>
-                        <p class="kvadrat_pro_text" data-i18n="html_css">- HTML and CSS</p>
-                        <p class="kvadrat_pro_text">- JavaScript</p>
-                        <p class="kvadrat_pro_text" data-i18n="git_github">- Git and GitHub</p>
-                        <p class="kvadrat_pro_text">- GitHub Pages</p>
+                            
+                            <div class="project-slide">
+                                <div class="kvadrat_ones">
+                                    <div class="kvadrat_1_progetcs p_50 project-card">
+                                        <h3 class="one_progects">My blog (coming soon)</h3>
+
+                                        <video class="project-video" muted loop>
+                                            <source src="my_blog.mp4" type="video/mp4">
+                                        </video>
+
+                                        <div class="difficulty">
+                                            <span style="font-size: 20px; color: rgb(124,255,124)" data-i18n="diffectly">Difficulty:</span>
+                                            <span class="star active">★</span>
+                                            <span class="star active">★</span>
+                                            <span class="star active">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                        </div>
+                                        <br>
+                                        <div class="kvadrat_pro"> 
+                                            <h3 style="margin-top: 5px; color: rgb(17, 133, 17);" data-i18n="progects_desc">Project Description:</h3>
+                                            <p class="p_blog_1" data-i18n="p_blog_1">It's my blog.</p>
+                                            <p class="p_blog_2" data-i18n="p_blog_2">At the moment it is still under development.</p>
+
+                                            <p class="kvadrat_pro_text" data-i18n="My_blog_p1">- Translate and write text for blog</p>
+                                            <p class="kvadrat_pro_text" data-i18n="My_blog_p2">- Create components UI helpes HTML and CSS</p>
+                                            <p class="kvadrat_pro_text" data-i18n="My_blog_p3">- Working Git - Control Version.</p>
+                                            <p class="kvadrat_pro_text" data-i18n="My_blog_p4">- Deployment using GitHub Pages. </p>
+
+                                            <h3 style="margin-top: 18px; color: rgb(17, 133, 17);" data-i18n="Technologies_desc">Technologies:</h3>
+                                            <p class="kvadrat_pro_text" data-i18n="html_css">- HTML and CSS</p>
+                                            <p class="kvadrat_pro_text">- JavaScript</p>
+                                            <p class="kvadrat_pro_text" data-i18n="git_github">- Git and GitHub</p>
+                                            <p class="kvadrat_pro_text">- GitHub Pages</p>
+                                        </div>
+                                        <div class="project_progress">
+                                            <div class="project_progress_bar"></div>
+                                        </div>
+                                        <div class="project_progress_label">50% development</div>
+                                        <a href="https://github.com/dpotak/My_blog.git">
+                                            <button class="kvadrat_pro_btn" style="background-color:black;color:white;border-radius:10px;" data-i18n="github_pages">
+                                                GitHub Repositor
+                                            </button>
+                                        </a>
+                                        <a href="">
+                                            <button class="kvadrat_pro_btn" style="background-color:black;color:white;border-radius:10px;" data-i18n="link_pages_coming">
+                                                Link Pages (coming soon)
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- SLIDE 3 -->
+                            <div class="project-slide">
+
+                                <!-- Сюда вставишь следующий проект -->
+                                 <div class="kvadrat_4_progetcs p_100 project-card">
+
+                                        <h3>Sites Portfolio</h3>
+
+                                        <video class="project-video" muted loop>
+                                            <source src="Sites_portfolio_practice.mp4" type="video/mp4">
+                                        </video>
+                                        
+                                        <div class="difficulty">
+                                            <span style="font-size: 20px; color: rgb(124,255,124)" data-i18n="">Difficulty:</span>
+                                            <span class="star active">★</span>
+                                            <span class="star active">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                        </div>
+                                        <div class="kvadrat_pro">
+                                            <h3 style="margin-top: 18px; color: rgb(17, 133, 17);" data-i18n="progects_desc">Project Description:</h3>
+                                            <p class="kvadrat_pro_text" data-i18n="">It was designed for training with HTML and CSS styles.</p>
+
+                                            <h3 style="margin-top: 18px; color: rgb(17, 133, 17);" data-i18n="Technologies_desc">Technologies:</h3>
+                                            <p class="kvadrat_pro_text" data-i18n="html_css">- HTML and CSS</p>
+                                            <br>
+                                        </div>
+
+                                         <div class="project_progress">
+                                            <div class="project_progress_bar"></div>
+                                        </div>
+
+                                        <div class="project_progress_label">100% development</div>
+
+                                        <a href="https://github.com/dpotak/Sites_portfolio.git"><button class="kvadrat_pro_btn" style="background-color: black; color: white; border-radius: 10px;" data-i18n="github_pages">GitHub Repositor</button></a>
+                                        <a href="https://dpotak.github.io/Sites_portfolio/"><button class="kvadrat_pro_btn" style="background-color: black; color: white; border-radius: 10px;" data-i18n="link_pages">Link Pages</button></a>
+
+                                    </div>
+                            </div>
+
+                            <!-- SLIDE 4 -->
+                            <div class="project-slide">
+                                <div class="kvadrat_4_progetcs p_100 project-card">
+                                    <h3>Portfolio</h3>
+
+                                    <video class="project-video" muted loop>
+                                        <source src="portfolio.mp4" type="video/mp4">
+                                    </video>
+
+                                    <div class="difficulty">
+                                        <span style="font-size: 20px; color: rgb(124,255,124)" data-i18n="">Difficulty:</span>
+                                        <span class="star active">★</span>
+                                        <span class="star active">★</span>
+                                        <span class="star active">★</span>
+                                        <span class="star active">★</span>
+                                        <span class="star">★</span>
+                                    </div>
+                                    <br>
+                                    <div class="kvadrat_pro">
+                                        <h3 style="margin-top:18px;color:rgb(17,133,17);" data-i18n="progects_desc">
+                                            Project Description:
+                                        </h3>
+                                        <p class="kvadrat_pro_text" data-i18n="text_portfolio_progects">
+                                            It's my portfolio. It's website write HTML , CSS and JavaScript.
+                                        </p>
+
+                                        <p class="kvadrat_pro_text" data-i18n="">- responsive UI layout using CSS Grid and Flexbox;</p>
+                                        <p class="kvadrat_pro_text" data-i18n="">- multilingual support (RU/EN/EE);</p>
+                                        <p class="kvadrat_pro_text" data-i18n="">- dynamic project cards and project slider;</p>
+                                        <p class="kvadrat_pro_text" data-i18n="">- interactive UI components;</p>
+                                        <p class="kvadrat_pro_text" data-i18n="">- Git-based version control;</p>
+                                        <p class="kvadrat_pro_text" data-i18n="">- deployment using GitHub Pages.</p>
+
+                                        <h3 style="margin-top:18px;color:rgb(17,133,17);" data-i18n="Technologies_desc">
+                                            Technologies:
+                                        </h3>
+                                        <p class="kvadrat_pro_text" data-i18n="html_css_javaScript">
+                                            - HTML , CSS and JavaScript
+                                        </p>
+                                    </div>
+                                    <div class="project_progress">
+                                       <div class="project_progress_bar"></div>
+                                    </div>
+                                 <div class="project_progress_label">
+                                     100% development
+                                 </div>
+                                <a href="https://github.com/dpotak/Portfolio.git">
+                                    <button class="kvadrat_pro_btn" style="background-color:black;color:white;border-radius:10px;" data-i18n="github_pages">
+                                        GitHub Repositor
+                                    </button>
+                                </a>
+                                <a href="https://dpotak.github.io/Portfolio/">
+                                    <button class="kvadrat_pro_btn" style="background-color:black;color:white;border-radius:10px;" data-i18n="link_pages">
+                                        Link Pages
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+
+
+                        <!-- SLIDE 5 -->
+                        <div class="project-slide">
+
+                            <div class="kvadrat_ones"> 
+                                <div class="kvadrat_4_progetcs p_100 project-card">
+                                    <h3 class="one_progects">Slider Crazy (practice)</h3>
+
+                                    <video class="project-video" muted loop>
+                                        <source src="slide_crazy_practice.mp4" type="video/mp4">
+                                    </video>
+
+                                    <div class="difficulty">
+                                        <span style="font-size: 20px; color: rgb(124,255,124)" data-i18n="diffectly">Difficulty:</span>
+                                        <span class="star active">★</span>
+                                        <span class="star active">★</span>
+                                        <span class="star active">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                    </div>
+                                    <br>
+                                    <div class="kvadrat_pro">
+                                        <h3 style="margin-top: 5px; color: rgb(17, 133, 17);" data-i18n="progects_desc">Project Description:</h3>
+                                        <p class="p_blog_1" data-i18n="">It's Slider Crazy (practice). Programms The program was initially written in HTML, CSS, and JavaScript.</p>
+                                        <h3 style="margin-top: 18px; color: rgb(17, 133, 17);" data-i18n="Technologies_desc">Technologies:</h3>
+                                        <p class="kvadrat_pro_text" data-i18n="">- HTML , JavaScript and CSS</p>
+                                        <p class="kvadrat_pro_text" data-i18n="git_github">- Git and GitHub</p>
+                                        <p class="kvadrat_pro_text">- GitHub Pages</p>
+                                    </div>
+
+                                    <div class="project_progress">
+                                        <div class="project_progress_bar"></div>
+                                    </div>
+
+                                    <div class="project_progress_label">100% development</div>
+
+                                    <a href="https://github.com/dpotak/Slider_Crazy_praktika.git"><button class="kvadrat_pro_btn" style="background-color: black; color: white; border-radius: 10px;" data-i18n="github_pages">GitHub Repositor</button></a>
+                                    <a href="https://dpotak.github.io/Slider_Crazy_praktika/"><button class="kvadrat_pro_btn" style="background-color: black; color: white; border-radius: 10px;" data-i18n="link_pages_coming">Link Pages</button></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="project_progress">
-                        <div class="project_progress_bar"></div>
-                    </div>
-
-                    <div class="project_progress_label">50% development</div>
-
-                    <a href="https://github.com/dpotak/My_blog.git"><button class="kvadrat_pro_btn" style="background-color: black; color: white; border-radius: 10px;" data-i18n="github_pages">GitHub Repositor</button></a>
-                    <a href=""><button class="kvadrat_pro_btn" style="background-color: black; color: white; border-radius: 10px;" data-i18n="link_pages_coming">Link Pages (coming soon)</button></a>
+                    <button class="project-next">&gt;</button>
                 </div>
 
-                <div class="kvadrat_4_progetcs p_10">
-                    <h3 class="">Tracker Cleaning (coming soon)</h3>
-                    <div class="kvadrat_pro">
-                        <h3 style="margin-top: 18px; color: rgb(17, 133, 17);" data-i18n="progects_desc">Project Description:</h3>
-                         <p class="p_blog_2" data-i18n="p_blog_2">At the moment it is still under development.</p>
-                        <h3 style="margin-top: 18px; color: rgb(17, 133, 17);" data-i18n="Technologies_desc">Technologies:</h3>
-                        <p class="kvadrat_pro_text">- Next.js (HTML , CSS , JavaScript)</p>
-                        <p class="kvadrat_pro_text">- Xammp</p>
-                        <p class="kvadrat_pro_text">- Git (GitHub)</p>
-                    </div>
+                <br>
+                <br>
+                <br>
 
-                     <div class="project_progress">
-                        <div class="project_progress_bar"></div>
-                    </div>
-
-                    <div class="project_progress_label">10% development</div>
-
-                    <a href="https://github.com/dpotak/tracker_cleaning-projects-live-server-.git"><button class="kvadrat_pro_btn" style="background-color: black; color: white; border-radius: 10px;" data-i18n="github_pages">GitHub Repositor</button></a>
-                    <a href=""><button class="kvadrat_pro_btn" style="background-color: black; color: white; border-radius: 10px;" data-i18n="link_pages_coming">Link Pages (coming soon)</button></a>
+              <div class="name_pet_Pro">
+                     <h2 class="projects_pet_1" id="full_stack" style="color: rgb(124,255,124)" data-i18n="Full_stack_projects">
+                     Projects Full-Stack Development:
+                    </h2>
                 </div>
 
-                <div class="kvadrat_4_progetcs p_100">
-                    <h3 class="">Sites Portfolio</h3>
-                    <div class="kvadrat_pro">
-                        <h3 style="margin-top: 18px; color: rgb(17, 133, 17);" data-i18n="progects_desc">Project Description:</h3>
-                        <p class="kvadrat_pro_text" data-i18n="">It was designed for training with HTML and CSS styles.</p>
+                <div class="projects-slider"> <!-- вторая часть -->
+                    <button class="project-prev"><</button>
+                    <div class="projects-wrapper">
 
-                        <h3 style="margin-top: 18px; color: rgb(17, 133, 17);" data-i18n="Technologies_desc">Technologies:</h3>
-                        <p class="kvadrat_pro_text" data-i18n="html_css">- HTML and CSS</p>
-                        <br>
+                        
+                        <div class="project-slide">
+                                
+                            <!-- сюда первый проект My blog -->
+                             <div class="kvadrat_5_progetcs p_75 project-card">
+                                 <h3>Manga--Chan--Anime--Chan (coming soon)</h3>
+
+                                <video class="project-video" muted loop>
+                                    <source src="video_2026-07-24_21-07-32.mp4" type="video/mp4">
+                                </video>
+
+                    <div class="difficulty">
+                        <span style="font-size: 20px; color: rgb(124,255,124)" data-i18n="diffectly">Difficulty:</span>
+                        <span class="star active">★</span>
+                        <span class="star active">★</span>
+                        <span class="star active">★</span>
+                        <span class="star active">★</span>
+                        <span class="star">★</span>
                     </div>
 
-                     <div class="project_progress">
-                        <div class="project_progress_bar"></div>
-                    </div>
-
-                    <div class="project_progress_label">100% development</div>
-
-                    <a href="https://github.com/dpotak/Sites_portfolio.git"><button class="kvadrat_pro_btn" style="background-color: black; color: white; border-radius: 10px;" data-i18n="github_pages">GitHub Repositor</button></a>
-                    <a href="https://dpotak.github.io/Sites_portfolio/"><button class="kvadrat_pro_btn" style="background-color: black; color: white; border-radius: 10px;" data-i18n="link_pages">Link Pages</button></a>
-
-                </div>
-
-                <div class="kvadrat_4_progetcs p_100">
-                    <h3>Portfolio</h3>
-                    <div class="kvadrat_pro">
-                        <h3 style="margin-top: 18px; color: rgb(17, 133, 17);" data-i18n="progects_desc">Project Description:</h3>
-                        <p class="kvadrat_pro_text" data-i18n="text_portfolio_progects">It's my portfolio. It's website write HTML , CSS and JavaScript.</p>
-
-                        <h3 style="margin-top: 18px; color: rgb(17, 133, 17);" data-i18n="Technologies_desc">Technologies:</h3>
-                        <p class="kvadrat_pro_text" data-i18n="html_css_javaScript">- HTML , CSS and JavaScript</p>
-                    </div>
-
-                    <div class="project_progress">
-                        <div class="project_progress_bar"></div>
-                    </div>
-
-                    <div class="project_progress_label">100% development</div>
-
-                     <a href="https://github.com/dpotak/Portfolio.git"><button class="kvadrat_pro_btn" style="background-color: black; color: white; border-radius: 10px;" data-i18n="github_pages">GitHub Repositor</button></a>
-                     <a href="https://dpotak.github.io/Portfolio/"><button class="kvadrat_pro_btn" style="background-color: black; color: white; border-radius: 10px;" data-i18n="link_pages">Link Pages</button></a>
-                   </div>
-                </div>
-
-                <div class="kvadrat_5_progetcs p_75">
-                    <h3>Manga--Chan--Anime--Chan (coming soon)</h3>
                     <div class="kvadrat_pro">
                         <h3 style="margin-top: 18px; color: rgb(17, 133, 17);" data-i18n="Technologies_desc">Technologies:</h3>
                         <p class="kvadrat_pro_text">- React (HTML , CSS , JavaScript) , Material , Three.js UI and Particles.js </p>
@@ -757,18 +911,84 @@ q
                     <div class="project_progress">
                         <div class="project_progress_bar"></div>
                     </div>
-
                     <div class="project_progress_label">75% development</div>
 
                     <a href="https://github.com/dpotak/manga-chan--anime-chan-projects-live-server-.git"><button class="kvadrat_pro_btn" style="background-color: black; color: white; border-radius: 10px;" data-i18n="github_pages">GitHub Repositor</button></a>
                     <a href="https://github.com/dpotak/manga-chan--anime-chan.git"><button class="kvadrat_pro_btn" style="background-color: black; color: white; border-radius: 10px;" data-i18n="github_pages">GitHub Repositor</button></a>
                     <a href=""><button class="kvadrat_pro_btn" style="background-color: black; color: white; border-radius: 10px;" data-i18n="link_pages_coming">Link Pages (coming soon)</button></a>
+                   </div>
                 </div>
 
-                <div class="kvadrat_ones">
+
+                        <div class="project-slide">
+                            <!-- сюда Tracker Cleaning -->
+                             <div class="kvadrat_ones">
+                                <div class="kvadrat_4_progetcs p_10 project-card">
+                                    <h3>Tracker Cleaning (coming soon)</h3>
+
+                    <video class="project-video" muted loop>
+                        <source src="" type="video/mp4">
+                    </video>
+
+                    <div class="difficulty">
+                        <span style="font-size: 20px; color: rgb(124,255,124)" data-i18n="diffectly">Difficulty:</span>
+                        <span class="star active">★</span>
+                        <span class="star active">★</span>
+                        <span class="star active">★</span>
+                        <span class="star active">★</span>
+                        <span class="star">★</span>
+                    </div>
+
+                    <div class="kvadrat_pro">
+                        <h3 style="margin-top:18px;color:rgb(17,133,17);" data-i18n="progects_desc">
+                            Project Description:
+                        </h3>
+                        <p class="p_blog_2" data-i18n="p_blog_2">
+                            At the moment it is still under development.
+                        </p>
+                        <h3 style="margin-top:18px;color:rgb(17,133,17);" data-i18n="Technologies_desc">
+                            Technologies:
+                        </h3>
+                        <p class="kvadrat_pro_text">- Next.js (HTML , CSS , JavaScript)</p>
+                        <p class="kvadrat_pro_text">- Xammp</p>
+                        <p class="kvadrat_pro_text">- Git (GitHub)</p>
+                    </div>
+                    <div class="project_progress">
+                        <div class="project_progress_bar"></div>
+                    </div>
+                    <div class="project_progress_label">
+                        10% development
+                    </div>
+                    <a href="https://github.com/dpotak/tracker_cleaning-projects-live-server-.git">
+                        <button class="kvadrat_pro_btn" style="background-color:black;color:white;border-radius:10px;" data-i18n="github_pages">
+                            GitHub Repositor
+                        </button>
+                    </a>
+                    <a href="">
+                        <button class="kvadrat_pro_btn" style="background-color:black;color:white;border-radius:10px;" data-i18n="link_pages_coming">
+                            Link Pages (coming soon)
+                        </button>
+                    </a>
+                </div>
+            </div>
+                        </div>
+
+
+                        <div class="project-slide">
+                            <!-- сюда Portfolio -->
+                             <div class="kvadrat_ones">
                  <div class="kvadrat_1_progetcs p_100">
                     <h3 class="one_progects">Todo App (New/Old Version)</h3>
 
+                    <div class="difficulty">
+                        <span style="font-size: 20px; color: rgb(124,255,124)" data-i18n="diffectly">Difficulty:</span>
+                        <span class="star active">★</span>
+                        <span class="star active">★</span>
+                        <span class="star active">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <br>
                     <div class="kvadrat_pro">
                         <h3 style="margin-top: 5px; color: rgb(17, 133, 17);" data-i18n="progects_desc">Project Description:</h3>
                         <p class="p_blog_1" data-i18n="p_todo_1">It's Todo App. Programms The program was initially written in HTML, CSS, and JavaScript. It was later rewritten in Vue.js.</p>
@@ -792,30 +1012,10 @@ q
                 </div>
                 
             </div>
-
-             <div class="kvadrat_ones">
-                 <div class="kvadrat_4_progetcs p_100">
-                    <h3 class="one_progects">Slider Crazy (practice)</h3>
-
-                    <div class="kvadrat_pro">
-                        <h3 style="margin-top: 5px; color: rgb(17, 133, 17);" data-i18n="progects_desc">Project Description:</h3>
-                        <p class="p_blog_1" data-i18n="">It's Slider Crazy (practice). Programms The program was initially written in HTML, CSS, and JavaScript.</p>
-                        <h3 style="margin-top: 18px; color: rgb(17, 133, 17);" data-i18n="Technologies_desc">Technologies:</h3>
-                        <p class="kvadrat_pro_text" data-i18n="">- HTML , JavaScript and CSS</p>
-                        <p class="kvadrat_pro_text" data-i18n="git_github">- Git and GitHub</p>
-                        <p class="kvadrat_pro_text">- GitHub Pages</p>
+                        </div>
                     </div>
-
-                    <div class="project_progress">
-                        <div class="project_progress_bar"></div>
-                    </div>
-
-                    <div class="project_progress_label">100% development</div>
-
-                    <a href="https://github.com/dpotak/Slider_Crazy_praktika.git"><button class="kvadrat_pro_btn" style="background-color: black; color: white; border-radius: 10px;" data-i18n="github_pages">GitHub Repositor</button></a>
-                    <a href="https://dpotak.github.io/Slider_Crazy_praktika/"><button class="kvadrat_pro_btn" style="background-color: black; color: white; border-radius: 10px;" data-i18n="link_pages_coming">Link Pages</button></a>
-                </div>
-            </div>
+                    <button class="project-next">></button>
+                </div>       
 
             <br>
             <br>
@@ -824,8 +1024,19 @@ q
                 <div class="name_pet_Pro">
                     <h2 class="" id="Sysdmin" style="color: rgb(124, 255, 124)" data-i18n="Administration_net__projects">Projects Systems Administration Stack:</h2>
 
+                    
                     <div class="kvadrat_2_progetcs p_100">
                     <h2 class="two_progects" style=" color: rgb(0, 255, 0);" data-i18n="ansible_name_1">Ansible: Settings network and Installed WordPress</h2>
+
+                    <div class="difficulty">
+                        <span style="font-size: 20px; color: rgb(124,255,124)" data-i18n="diffectly">Difficulty:</span>
+                        <span class="star active">★</span>
+                        <span class="star active">★</span>
+                        <span class="star active">★</span>
+                        <span class="star active">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <br>
                     <div class="kvadrat_pro">
                         <h2 class="h3_names_Ansible">Ansible LAMP + WordPress Automation Playbook</h2>
                         <h3 class="">Centos 7 | Ubuntu 20.04 | Apache2 | MariaDB | PHP 8.3 | WordPress | systemd | Automation</h3>
@@ -888,6 +1099,16 @@ q
 
                 <div class="kvadrat_3_progetcs p_100">
                     <h1 class="three_progects" style=" color: rgb(0, 255, 0);" data-i18n="powershell_name_1">PowerShell: Installed and Settings network</h1>
+
+                    <div class="difficulty">
+                        <span style="font-size: 20px; color: rgb(124,255,124)" data-i18n="diffectly">Difficulty:</span>
+                        <span class="star active">★</span>
+                        <span class="star active">★</span>
+                        <span class="star active">★</span>
+                        <span class="star active">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <br>
                     <div class="kvadrat_pro">
                         <h2 class="">PowerShell, Windows Server, Active Directory, DNS/DHCP, IIS, MySQL, PHP, Automation, Networking basics, Domain configuration</h2>
                         <h3 style="margin-top: 18px; color: rgb(17, 133, 17);" data-i18n="Technologies_desc">Technologies:</h3>
@@ -943,6 +1164,15 @@ q
                 <div class="kvadrat_3_progetcs p_100">
                     <div class="kvadrat_pro">
                         <h2 style=" color: rgb(0, 255, 0);">Python Projects for Tallinna Tondiraba Huvikool</h2>
+
+                        <div class="difficulty">
+                            <span style="font-size: 20px; color: rgb(124,255,124)" data-i18n="diffectly">Difficulty:</span>
+                            <span class="star active">★</span>
+                            <span class="star active">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
                         <h3 style="margin-top: 18px; color: rgb(17, 133, 17);" data-i18n="Technologies_desc">Technologies:</h3>
                         <p class="kvadrat_pro_text">- Python</p>
 
@@ -1009,10 +1239,10 @@ q
 
     <section class="section_3">
         <div class="Certificat">
-            <h2 class="Certificate" style="color: rgb(124, 255, 124)">Certificate (official): </h2>
+            <h2 class="Certificate" style="color: rgb(124, 255, 124)" data-i18n="cert_ofc">Certificate (official): </h2>
             <div class="kvadrat_certificate_info"> 
                 <div class="cert_text1">
-                    <h3 class="h4_cert" style="color: rgb(17, 133, 17);">Tallinna Tööstushariduskeskus</h3>
+                    <h3 class="h4_cert" style="color: rgb(17, 133, 17);" data-i18n="talIndu_center">Tallinna Tööstushariduskeskus</h3>
                     <h4 style="color: rgb(9, 151, 9);">LÕPPUTUNNISTUS:</h4>
                     <h4 class="h4_cert" style="color: rgb(255, 255, 255);">Logistic Junior specialist in IT systems</h4>
                     <h4 class="h4_cert" style="color: rgb(255, 255, 255);">ID: 016478</h4>
@@ -1042,7 +1272,7 @@ q
         </div>
         <br>
         <div class="Certificat">
-            <h2 class="Certificate" style="color: rgb(124, 255, 124);">Certificate courses (not official): </h2>
+            <h2 class="Certificate" style="color: rgb(124, 255, 124);" data-i18n="cert_ofc_not">Certificate courses (not official): </h2>
             <div class="kvadrat_certificate_info">
               <div class="cert_text1">
                 <h3 style="color: rgb(9, 151, 9);">TUNNISTUS 0862 Eesti keele B1 -taseme eksamiks ettevalmistav kursus (language courses diploma)</h3>

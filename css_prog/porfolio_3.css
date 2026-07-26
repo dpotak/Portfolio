@@ -229,7 +229,7 @@ button:active,
     transform: translateY(0);
 }
 
-/* ===== SCROLL ARROW BUTTON ===== */
+/* ===== SCROLL ARROW BUTTON 
 
 .scroll_down_btn {
     position: absolute;
@@ -254,8 +254,71 @@ button:active,
 .scroll_down_btn:hover {
     transform: translateX(-50%) scale(1.1);
     box-shadow: 0 0 15px rgba(124,255,124,0.4);
+} 
+
+===== */
+
+
+.projects-slider{
+    position:relative;
+    width:100%;
+    overflow:hidden;
+    margin-top:30px;
 }
 
+
+.projects-wrapper{
+    display:flex;
+    transition:0.5s ease;
+}
+
+
+.project-slide{
+    min-width:100%;
+    padding:20px;
+    box-sizing:border-box;
+}
+
+
+.project-prev,
+.project-next{
+
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+
+    width: 0em;
+
+    border-radius:50%;
+    border:none;
+
+    background:#0A0F1F;
+    color:white;
+
+    font-size:25px;
+    cursor:pointer;
+
+    z-index:10;
+}
+
+
+.project-prev{
+    left:20px;
+}
+
+
+.project-next{
+    right:20px;
+}
+
+
+.project-prev:hover,
+.project-next:hover{
+
+    background:#7cff7c;
+    color:black;
+
+}
 
 
 .contacts_section {
