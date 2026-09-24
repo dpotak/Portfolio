@@ -62,6 +62,9 @@ lhv_3: "Despite my rejection, I gained practical experience working with a new p
 Language: "Language",
 text_Tondi: "he code was written for submission to the competition.",
 
+Transport_cat_B: "Transport categoria:",
+B_cat_list: "B-categoria (AM , B1) - MANUAL",
+
 courses_1:"Courses online:",
 Programming_1:"Programming",
 
@@ -267,6 +270,9 @@ Language: "Языки",
 lang_rus: "C2 - родной язык",
 lang_eng: "A2 - Уровень ниже среднего ",
 lang_est: "B1 - Средний (официальный A2)",
+
+Transport_cat_B: "Категория транспорта:",
+B_cat_list: "B-категория (AM , B1) - МАНУАЛ",
 
 lhv_1: "Чтобы подготовиться к стажировке в банке (банк LHV), я самостоятельно изучила Java и разработала небольшой проект — калькулятор в консольной и графической версиях».",
 lhv_2: "В процессе я изучила объектно-ориентированное программирование и основы разработки приложений».",
@@ -481,6 +487,9 @@ lhv_3: "Vaatamata tagasilükkamisele sain praktilisi kogemusi uue programmeerimi
 lang_rus: "C2 - emakeel",
 lang_eng: "A2 - Eelkesktase",
 lang_est: "B1 - Kesktase (ametlik A2)",
+
+ransport_cat_B: "Juhiluba transportid:",
+B_cat_list: "B-kategooriad (AM , B1) - MANUAALNE",
 
 text_interests: "Kui sul on huvitav projekt või tööpakkumine, kirjuta palun:",
 
