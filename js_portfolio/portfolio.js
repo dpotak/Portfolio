@@ -78,6 +78,7 @@ ITTechician_Level4: "IT-Techician - Level 4",
 CERT_EST_LANG_A2: "CERTIFICATE ESTONIAN LANGUAGE A2 (official) 60%:",
 cert_py_basic: "Python (Basic) Certificate",
 int_to_prog_practice: "Introduction to programming (practice)",
+int_to_prog_lect: "Introduction to programming (lectures)",
 
 /*  */
 
