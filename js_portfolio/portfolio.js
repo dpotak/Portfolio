@@ -81,13 +81,9 @@ links: "Link:",
 contacts_me: "Contact Me",
 copy_email_btn: "Copy email",
 
-/* */ 
-
 SysAmdin_Stack: "System Administration stack",
 Network_Stack: "Network technologies stack",
 Front_projects_2: "Frontend Development Stack",
-
-/* */
 
 Language: "Language",
 text_Tondi: "he code was written for submission to the competition.",
@@ -320,6 +316,10 @@ links: "Ссылка:",
 contacts_me: "Мои контакты",
 copy_email_btn: "Копирование э-майла",
 
+SysAmdin_Stack: "Стек системного администрирования",
+Network_Stack: "Стек сетевых технологий",
+Front_projects_2: "Стек фронтенд-разработки",
+
 Language: "Языки",
 lang_rus: "C2 - родной язык",
 lang_eng: "A2 - Уровень ниже среднего ",
@@ -532,6 +532,10 @@ links: "Link:",
 
 contacts_me: "Minu kontaktid",
 copy_email_btn: "Kopeerid email",
+
+SysAmdin_Stack: "Süsteemiadministreerimise pinu",
+Network_Stack: "Võrgutehnoloogiate pinu",
+Front_projects_2: "Esialgse arenduse pinu",
 
 cert_ofc: "Tunnistus (ametlik):",
 cert_ofc_not: "Sertifikaadikursused (mitteametlikud):",
