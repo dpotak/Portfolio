@@ -73,6 +73,8 @@ sliderCrazy_practice: "Slider Crazy (practice)",
 Manga_Chan_ComingSoon: "Manga--Chan--Anime--Chan (coming soon)",
 TrackerCleaning_comingSoon: "Tracker Cleaning (coming soon)",
 TodoApp_NEWOLD_Version: "Todo App (New/Old Version)",
+JuniorSpecialist_Level4: "",
+ITTechician_Level4: "",
 
 /*  */
 
