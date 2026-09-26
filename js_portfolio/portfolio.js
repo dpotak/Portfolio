@@ -726,6 +726,17 @@ el.innerText=translations[lang][el.dataset.i18n];
 });
 }
 
+function setLang(lang) {
+    document.querySelectorAll("[data-i18n]").forEach(el => {
+        const key = el.dataset.i18n;
+        const translation = translations[lang]?.[key];
+
+        if (translation !== undefined) {
+            el.innerText = translation;
+        }
+    });
+}
+
 function toggleDropdown() {
     document.getElementById("dropdown").classList.toggle("show");
 }
