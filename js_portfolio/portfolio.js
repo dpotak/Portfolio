@@ -52,7 +52,6 @@ h4_contact_2: "Or do you have an idea for your project? Let's discuss it.",
 
 Full_stack_projects: "Projects Full-Stack Development:",
 Front_projects: "Projects Frontend Development:", // 
-Front_projects_2: "Frontend Development Stack",
 Administration_net__projects: "Projects Systems Administration Stack:",
 
 lhv_1: "To prepare for an internship in banking (LHV bank), I taught myself Java and developed a small project—a calculator in both console and graphical versions.",
@@ -81,6 +80,14 @@ links: "Link:",
 
 contacts_me: "Contact Me",
 copy_email_btn: "Copy email",
+
+/* */ 
+
+SysAmdin_Stack: "System Administration stack",
+Network_Stack: "Network technologies stack",
+Front_projects_2: "Frontend Development Stack",
+
+/* */
 
 Language: "Language",
 text_Tondi: "he code was written for submission to the competition.",
