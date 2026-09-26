@@ -79,13 +79,8 @@ int_to_prog_practice: "Introduction to programming (practice)",
 int_to_prog_lect: "Introduction to programming (lectures)",
 links: "Link:",
 
-
-/* */
-
 contacts_me: "Contact Me",
 copy_email_btn: "Copy email",
-
-/* */
 
 Language: "Language",
 text_Tondi: "he code was written for submission to the competition.",
@@ -315,6 +310,9 @@ int_to_prog_practice: "Введение в программирование (п�
 int_to_prog_lect: "Введение в программирование (lectures)",
 links: "Ссылка:",
 
+contacts_me: "Мои контакты",
+copy_email_btn: "Копирование э-майла",
+
 Language: "Языки",
 lang_rus: "C2 - родной язык",
 lang_eng: "A2 - Уровень ниже среднего ",
@@ -525,6 +523,9 @@ int_to_prog_practice: "Sissejuhatus programmeerimisse (praktika)",
 int_to_prog_lect: "Sissejuhatus programmeerimisse (loengud)",
 links: "Link:",
 
+contacts_me: "Minu kontaktid",
+copy_email_btn: "Kopeerid email",
+
 cert_ofc: "Tunnistus (ametlik):",
 cert_ofc_not: "Sertifikaadikursused (mitteametlikud):",
 
@@ -559,7 +560,7 @@ lang_rus: "C2 - emakeel",
 lang_eng: "A2 - Eelkesktase",
 lang_est: "B1 - Kesktase (ametlik A2)",
 
-ransport_cat_B: "Juhiluba transportid:",
+Transport_cat_B: "Juhiluba transportid:",
 B_cat_list: "B-kategooriad (AM , B1) - MANUAALNE",
 
 text_interests: "Kui sul on huvitav projekt või tööpakkumine, kirjuta palun:",
