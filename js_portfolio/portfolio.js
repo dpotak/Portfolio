@@ -59,6 +59,18 @@ lhv_1: "To prepare for an internship in banking (LHV bank), I taught myself Java
 lhv_2: "During the process, I learned about object-oriented programming and the basics of application development.",
 lhv_3: "Despite my rejection, I gained practical experience working with a new programming language and independently mastering technologies.",
 
+/*  */
+
+Py_Adv: "Python — Advanced",
+java_elemet: "Java - Elementary",
+Java_calc: "Calculator interface and not interface",
+Py_projects: "Python Projects:",
+cSharp_Element: "C# - Elementary",
+Pet_Proj_SliderCrazy: "Pet-Progects - Slider Crazy (practice)",
+Vue_PetProgects: "Pet-Progects - Todo App (New/Old Version)",
+
+/*  */
+
 
 Language: "Language",
 text_Tondi: "he code was written for submission to the competition.",
