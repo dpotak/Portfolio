@@ -68,6 +68,7 @@ Py_projects: "Python Projects:",
 cSharp_Element: "C# - Elementary",
 Pet_Proj_SliderCrazy: "Pet-Progects - Slider Crazy (practice)",
 Vue_PetProgects: "Pet-Progects - Todo App (New/Old Version)",
+portfolio_official: "Portfolio",
 
 /*  */
 
