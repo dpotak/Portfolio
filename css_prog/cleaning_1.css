@@ -410,6 +410,36 @@ h1 {
 
 }
 
+.experience-company {
+    position: relative;
+    margin-left: 20px;
+    padding-left: 25px;
+}
 
+.experience-company::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 20px;
+    bottom: 20px;
+    width: 2px;
+    background: #ccc;
+}
+
+.experience-company .card {
+    position: relative;
+}
+
+.experience-company .card::before {
+    content: "";
+    position: absolute;
+    left: -31px;
+    top: 22px;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border: 2px solid #333;
+    border-radius: 50%;
+}
 
 
