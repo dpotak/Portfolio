@@ -76,6 +76,8 @@ TodoApp_NEWOLD_Version: "Todo App (New/Old Version)",
 JuniorSpecialist_Level4: "Junior IT Systems - Level 4",
 ITTechician_Level4: "IT-Techician - Level 4",
 CERT_EST_LANG_A2: "CERTIFICATE ESTONIAN LANGUAGE A2 (official) 60%:",
+cert_py_basic: "Python (Basic) Certificate",
+int_to_prog_practice: "Introduction to programming (practice)",
 
 /*  */
 
