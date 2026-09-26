@@ -69,6 +69,10 @@ cSharp_Element: "C# - Elementary",
 Pet_Proj_SliderCrazy: "Pet-Progects - Slider Crazy (practice)",
 Vue_PetProgects: "Pet-Progects - Todo App (New/Old Version)",
 portfolio_official: "Portfolio",
+sliderCrazy_practice: "Slider Crazy (practice)",
+Manga_Chan_ComingSoon: "Manga--Chan--Anime--Chan (coming soon)",
+TrackerCleaning_comingSoon: "Tracker Cleaning (coming soon)",
+TodoApp_NEWOLD_Version: "Todo App (New/Old Version)",
 
 /*  */
 
