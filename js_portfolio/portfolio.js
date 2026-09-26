@@ -82,7 +82,8 @@ links: "Link:",
 
 /* */
 
-
+contacts_me: "Contact Me",
+copy_email_btn: "Copy email",
 
 /* */
 
